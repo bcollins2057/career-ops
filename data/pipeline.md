@@ -137,3 +137,24 @@ Processed entries move to `## Processed` below.
 - [!] https://job-boards.greenhouse.io/verkada/jobs/4715534007 | Verkada | Technical Support Engineer - University Graduate 2026 — SKIP: San Mateo CA on-site, entry level
 - [!] https://job-boards.greenhouse.io/keepersecurity/jobs/4091091009 | Keeper Security | Senior DevOps Engineer (IL5 / FedRAMP High) — SKIP: clearance required
 - [!] https://apply.workable.com/panorama-education/jobs/view/E549B2D01A | Panorama Education | GTM System Administrator — SKIP: GTM/marketing systems, not IT ops
+
+### Auto-Skipped — Scan 2026-06-15 (second pass, pre-filter)
+- [!] https://job-boards.greenhouse.io/twilio/jobs/7906083 | Twilio | Manager, Technical Support — SKIP: manager role
+- [!] https://job-boards.greenhouse.io/twilio/jobs/7984998 | Twilio | Technical Support Engineer 2 — SKIP: Remote Japan
+- [!] https://job-boards.greenhouse.io/twilio/jobs/7966810 | Twilio | Technical Support Expert 2 — SKIP: Remote Colombia
+- [!] https://www.okta.com/company/careers/opportunity/7418982?gh_jid=7418982 | Okta | Senior Site Reliability Engineer (Auth0) — SKIP: Barcelona Spain
+- [!] https://www.okta.com/company/careers/opportunity/7839826?gh_jid=7839826 | Okta | Staff Site Reliability Engineer — SKIP: Bengaluru India
+- [!] https://careers.datadoghq.com/detail/7946955/?gh_jid=7946955 | Datadog | Manager II, Engineering - Site Reliability Engineering — SKIP: manager role
+- [!] https://careers.datadoghq.com/detail/7813863/?gh_jid=7813863 | Datadog | Technical Support Engineer 1 — SKIP: posting closed (404)
+- [!] https://careers.datadoghq.com/detail/6882229/?gh_jid=6882229 | Datadog | Technical Support Engineer 1 - 2 — SKIP: Seoul South Korea
+- [!] https://careers.datadoghq.com/detail/6759702/?gh_jid=6759702 | Datadog | Technical Support Engineer 2 — SKIP: Tokyo Japan
+- [!] https://jobs.dropbox.com/listing/7539803?gh_jid=7539803 | Dropbox | Network Engineer — SKIP: Remote Mexico
+- [!] https://job-boards.greenhouse.io/intercom/jobs/7824142 | Intercom | AI Infrastructure Engineer — SKIP: Berlin Germany hybrid
+- [!] https://job-boards.greenhouse.io/intercom/jobs/7918638 | Intercom | IT Systems Engineer — SKIP: San Francisco hybrid 3d/week
+- [!] https://www.mongodb.com/careers/job/?gh_jid=7957589 | MongoDB | Manager, Site Reliability Engineering - Storage Layer Service — SKIP: manager role
+- [!] https://www.mongodb.com/careers/job/?gh_jid=7821316 | MongoDB | Site Reliability Engineer 3 — SKIP: NYC hybrid
+- [!] https://www.mongodb.com/careers/job/?gh_jid=7793634 | MongoDB | Site Reliability Engineer (Senior or Staff), Storage Layer Services (SLS) — SKIP: Canada only (Montreal/Toronto)
+- [!] https://www.mongodb.com/careers/job/?gh_jid=7727923 | MongoDB | Staff Site Reliability Engineer, Fabric — SKIP: platform SWE role, 503 on fetch
+- [!] https://www.mongodb.com/careers/job/?gh_jid=7831454 | MongoDB | Staff Technical Program Manager, Site Reliability Engineering — SKIP: TPM role
+- [!] https://job-boards.greenhouse.io/verkada/jobs/5063200007 | Verkada | Technical Support Engineer — SKIP: San Mateo CA on-site 5d/week
+
