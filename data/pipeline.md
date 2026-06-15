@@ -7,6 +7,8 @@ Processed entries move to `## Processed` below.
 
 ## Pending
 
+
+
 ## Processed
 
 <!-- Evaluated entries move here automatically -->
@@ -16,18 +18,122 @@ Processed entries move to `## Processed` below.
 - [x] #002 | https://apply.workable.com/panorama-education/j/ABC73DB11F | Panorama Education | IT Systems Administrator | 3.8/5 | PDF ❌
 - [x] #003 | https://jobs.ashbyhq.com/rula/c7aafe5c-fc02-4b05-a5bd-d79b7681599e | Rula | IT Support Specialist | 3.2/5 | PDF ❌
 - [x] #004 | https://jobs.ashbyhq.com/intus/27843d5e-42be-49ae-8001-2b93636be76c | IntusCare | IT Systems and Identity Specialist | 3.5/5 | PDF ❌
-- [!] https://job-boards.greenhouse.io/its/jobs/7742318003 | Intelligent Technical Solutions | System Administrator II — SKIP: $11/hour offshore pay
-- [!] https://jobs.ashbyhq.com/careerswift.ai/7e42e740-8f11-410e-b588-f34dc3810455/application | Careerswift | Help Desk / IT Support Specialist — SKIP: $52-62K below minimum
-- [!] https://jobs.ashbyhq.com/brinc/f4d9cc60-7807-4446-874f-9370a4dd3c8e | BRINC | IT Support Specialist — SKIP: no salary, likely on-site
-- [!] https://apply.workable.com/aristotle/j/7F9BB25BCA/ | Aristotle | IT Systems Administrator — SKIP: DC on-site daily
-- [!] https://apply.workable.com/stack-it-recruitment/j/52491E24B3/ | STACK IT Recruitment | Systems Administrator — SKIP: Whitby Ontario Canada
-- [!] https://apply.workable.com/fusiontek/j/7685726298 | FusionTek | Help Desk Technician — EXPIRED: Dec 2024
-- [!] https://job-boards.greenhouse.io/flagshippioneeringinc/jobs/8535538002 | Flagship Pioneering | IT Systems Administrator — SKIP: on-site Cambridge MA
-- [!] https://job-boards.greenhouse.io/kepora/jobs/4261644009 | Kepora | System Administrator — SKIP: on-site Herndon/Potomac MD
-- [!] https://job-boards.greenhouse.io/onepath/jobs/4600601007 | OnePath | Systems Administrator I — EXPIRED: 404
-- [!] https://jobs.lever.co/distro/1a2266f6-6e91-4d6d-a697-f75769c6bd73 | Distro | Help Desk Technician Level 1 — EXPIRED: 404
-- [!] https://jobs.lever.co/aero/8412f0b1-9a7b-4a44-910f-25d496890912 | Aero | IT Systems Administrator — SKIP: Van Nuys CA hybrid
-- [!] https://jobs.lever.co/conversica/ac8c52c6-fea9-4771-8ab4-d63b7d781178 | Conversica | Technical Support Specialist — EXPIRED: 404
-- [!] https://job-boards.greenhouse.io/grvty/jobs/4169846009 | GRVTY | Systems Administrator Level 3 — SKIP: TS/SCI+Poly clearance required
-- [!] https://job-boards.greenhouse.io/opensesame/jobs/6979101 | OpenSesame | Systems Administrator — SKIP: Argentina/Mexico only
-- [!] https://jobs.lever.co/alltrails/11b7a0d8-7b8f-456c-a9ff-d15e0d59613b | AllTrails | IT Manager — SKIP: manager role
+
+### Processed — Scan 2026-06-15
+- [x] #020 | https://boards.greenhouse.io/cloudflare/jobs/7742773?gh_jid=7742773 | Cloudflare | Systems Engineer, MAPS | 1.5/5 | PDF ❌
+- [x] #021 | https://stripe.com/jobs/search?gh_jid=7462961 | Stripe | Infrastructure Engineer, Privy (New York) | 1.5/5 | PDF ❌
+- [x] #022 | https://jobs.elastic.co/jobs?gh_jid=7957649&gh_jid=7957649 | Elastic | Site Reliability Engineer (Hosted Infra) - Platform (US) | 2.5/5 | PDF ❌
+- [x] #005 | https://careers.datadoghq.com/detail/7449072/?gh_jid=7449072 | Datadog | Technical Support Engineer 2, Premier - San Francisco | 2.8/5 | PDF ❌
+- [x] #006 | https://job-boards.greenhouse.io/intercom/jobs/7122157 | Intercom | Technical Support Engineer (Chicago) | 2.6/5 | PDF ❌
+- [x] #007 | https://job-boards.greenhouse.io/intercom/jobs/7366132 | Intercom | Technical Support Specialist (Chicago) | 2.9/5 | PDF ❌
+- [x] #008 | https://job-boards.greenhouse.io/intercom/jobs/7943136 | Intercom | Senior IT Systems Engineer (San Francisco) | 2.8/5 | PDF ❌
+- [x] #009 | https://job-boards.greenhouse.io/twilio/jobs/7474040 | Twilio | Senior Infrastructure Engineer (Remote US) | 2.5/5 | PDF ❌
+- [x] #010 | https://boards.greenhouse.io/cloudflare/jobs/7992903?gh_jid=7992903 | Cloudflare | Senior Network Engineer | 2.2/5 | PDF ❌
+- [x] #011 | https://job-boards.greenhouse.io/its/jobs/6363275003 | Intelligent Technical Solutions (ITS) | IT Technician I / II (US Remote) | 2.8/5 | PDF ❌
+- [x] #012 | https://job-boards.greenhouse.io/its/jobs/6363736003 | Intelligent Technical Solutions (ITS) | System Administrator I (US Remote) | 3.2/5 | PDF ❌
+- [x] #013 | https://job-boards.greenhouse.io/its/jobs/7764141003 | Intelligent Technical Solutions (ITS) | Network Administrator (Remote) | 1.8/5 | PDF ❌
+- [x] #014 | https://job-boards.greenhouse.io/keepersecurity/jobs/4185751009 | Keeper Security | Senior Windows Systems Engineer (Remote US) | 1.5/5 | PDF ❌
+- [x] #023 | https://careers.datadoghq.com/detail/7997872/?gh_jid=7997872 | Datadog | Technical Support Engineer 2, Premier - Denver | 2.8/5 | PDF ❌
+- [x] #016 | https://careers.datadoghq.com/detail/7923520/?gh_jid=7923520 | Datadog | Senior Systems Engineer, Technical Solutions (US-East) | 2.2/5 | PDF ❌
+- [x] #017 | https://jobs.dropbox.com/listing/7961824?gh_jid=7961824 | Dropbox | Staff Site Reliability Engineer, Production Engineering (Remote US) | 1.5/5 | PDF ❌
+- [x] #018 | https://www.mongodb.com/careers/job/?gh_jid=7727873 | MongoDB | Senior Site Reliability Engineer, Fleet Management (US) | 1.8/5 | PDF ❌
+- [x] #019 | https://www.mongodb.com/careers/job/?gh_jid=7727964 | MongoDB | Site Reliability Engineer (Senior or Staff), Atlas (US) | 1.8/5 | PDF ❌
+
+### Auto-Skipped — Scan 2026-06-15 (pre-filter)
+- [!] https://job-boards.greenhouse.io/its/jobs/7742318003 | ITS | System Administrator II (Remote) — SKIP: international/offshore pay
+- [!] https://job-boards.greenhouse.io/its/jobs/7717919003 | ITS | System Administrator II (Reno, NV) — SKIP: on-site
+- [!] https://job-boards.greenhouse.io/its/jobs/7749154003 | ITS | System Administrator I Onsite (Sacramento, CA) — SKIP: on-site
+- [!] https://job-boards.greenhouse.io/its/jobs/7754195003 | ITS | System Administrator Onsite (Dallas, TX) — SKIP: on-site
+- [!] https://job-boards.greenhouse.io/its/jobs/6354503003 | ITS | IT Technician I (Remote) — SKIP: likely international per ITS pattern
+- [!] https://job-boards.greenhouse.io/its/jobs/6354575003 | ITS | System Administrator I (Remote) — SKIP: likely international per ITS pattern
+- [!] https://stripe.com/jobs/search?gh_jid=7736482 | Stripe | Corporate Network Engineering Manager — SKIP: manager role
+- [!] https://stripe.com/jobs/search?gh_jid=7722943 | Stripe | Credit Operations Analyst — SKIP: wrong role
+- [!] https://stripe.com/jobs/search?gh_jid=7722938 | Stripe | Credit Operations Analyst, Risk Operations — SKIP: wrong role
+- [!] https://stripe.com/jobs/search?gh_jid=7941800 | Stripe | EMEA IT Helpdesk Manager — SKIP: EMEA, manager
+- [!] https://stripe.com/jobs/search?gh_jid=7962089 | Stripe | Manager, Product Support Specialist — SKIP: Singapore, manager
+- [!] https://stripe.com/jobs/search?gh_jid=7930153 | Stripe | People Systems Platform Engineer (Salesforce) — SKIP: Salesforce platform role
+- [!] https://stripe.com/jobs/search?gh_jid=7524531 | Stripe | Product Support Specialist — SKIP: Singapore
+- [!] https://stripe.com/jobs/search?gh_jid=7945056 | Stripe | Product Support Specialist (Mandarin-speaking) — SKIP: Singapore
+- [!] https://stripe.com/jobs/search?gh_jid=7417090 | Stripe | Technical Program Manager, IAM Programs — SKIP: TPM role, not sysadmin
+- [!] https://job-boards.greenhouse.io/airtable/jobs/8573015002 | Airtable | Technical Support Specialist — SKIP: London UK
+- [!] https://job-boards.greenhouse.io/automox/jobs/5238193008 | Automox | Senior Manager, Security & IT Operations — SKIP: manager role
+- [!] https://job-boards.greenhouse.io/twilio/jobs/7958965 | Twilio | Manager, Technical Support — SKIP: Colombia, manager
+- [!] https://job-boards.greenhouse.io/twilio/jobs/7657993 | Twilio | Senior Network Engineer — SKIP: India
+- [!] https://job-boards.greenhouse.io/twilio/jobs/7943272 | Twilio | Technical Support Engineer 2 — SKIP: Colombia
+- [!] https://job-boards.greenhouse.io/twilio/jobs/7874688 | Twilio | Technical Support Engineer 3 — SKIP: India
+- [!] https://job-boards.greenhouse.io/twilio/jobs/7912398 | Twilio | Technical Support Engineer (L2) — SKIP: Japan
+- [!] https://job-boards.greenhouse.io/twilio/jobs/7993860 | Twilio | Technical Support Expert 2 — SKIP: Colombia
+- [!] https://boards.greenhouse.io/cloudflare/jobs/7462799?gh_jid=7462799 | Cloudflare | Distributed Systems Engineer, Analytical Database Platform — SKIP: wrong role
+- [!] https://boards.greenhouse.io/cloudflare/jobs/7462803?gh_jid=7462803 | Cloudflare | Distributed Systems Engineer - Data Platform - Analytics and Alerts — SKIP: wrong role
+- [!] https://boards.greenhouse.io/cloudflare/jobs/7462801?gh_jid=7462801 | Cloudflare | Distributed Systems Engineer - Data Platform (Delivery, Database, Retrieval) — SKIP: wrong role
+- [!] https://boards.greenhouse.io/cloudflare/jobs/7462802?gh_jid=7462802 | Cloudflare | Distributed Systems Engineer - Data Platform - Logs and Audit Logs — SKIP: wrong role
+- [!] https://boards.greenhouse.io/cloudflare/jobs/7778956?gh_jid=7778956 | Cloudflare | Senior Solutions Engineer, Enterprise Accounts - Miami — SKIP: sales role
+- [!] https://www.okta.com/company/careers/opportunity/7841999?gh_jid=7841999 | Okta | Director, Product Management (IAM) - Auth0 — SKIP: PM/director role
+- [!] https://www.okta.com/company/careers/opportunity/7247309?gh_jid=7247309 | Okta | Manager Site Reliability Engineer — SKIP: Bengaluru, manager
+- [!] https://www.okta.com/company/careers/opportunity/7845385?gh_jid=7845385 | Okta | Manager- Site Reliability Engineering — SKIP: Bengaluru, manager
+- [!] https://www.okta.com/company/careers/opportunity/7904652?gh_jid=7904652 | Okta | Manager, Site Reliability Engineering — SKIP: SF, manager
+- [!] https://www.okta.com/company/careers/opportunity/7882120?gh_jid=7882120 | Okta | Onsite Associate IT Support — SKIP: Sydney Australia
+- [!] https://www.okta.com/company/careers/opportunity/7648974?gh_jid=7648974 | Okta | Principal Data Platform Engineer (Bengaluru) — SKIP: India, wrong role
+- [!] https://www.okta.com/company/careers/opportunity/8002576?gh_jid=8002576 | Okta | Principal Site Reliability Engineer — SKIP: Bengaluru
+- [!] https://www.okta.com/company/careers/opportunity/7648977?gh_jid=7648977 | Okta | Senior Data Platform Engineer (Bengaluru) — SKIP: India, wrong role
+- [!] https://www.okta.com/company/careers/opportunity/7917007?gh_jid=7917007 | Okta | Senior Manager, Site Reliability Engineering (Federal) — SKIP: DC, clearance, manager
+- [!] https://www.okta.com/company/careers/opportunity/7317857?gh_jid=7317857 | Okta | Senior Manager, Site Reliability Engineering - Infrastructure Platform — SKIP: SF, manager
+- [!] https://www.okta.com/company/careers/opportunity/7595065?gh_jid=7595065 | Okta | Senior Platform Engineer, Runtime (Auth0) — SKIP: Toronto
+- [!] https://www.okta.com/company/careers/opportunity/7791590?gh_jid=7791590 | Okta | Senior Site Reliability Engineer (Auth0) — SKIP: Toronto
+- [!] https://www.okta.com/company/careers/opportunity/7994928?gh_jid=7994928 | Okta | Staff Site Reliability Engineer — SKIP: Bengaluru
+- [!] https://www.okta.com/company/careers/opportunity/7562929?gh_jid=7562929 | Okta | Staff Site Reliability Engineer, Core IDaaS w/ active TS/SCI — SKIP: clearance required
+- [!] https://www.okta.com/company/careers/opportunity/7743339?gh_jid=7743339 | Okta | Staff Site Reliability Engineer - Kubernetes — SKIP: on-site US cities
+- [!] https://www.okta.com/company/careers/opportunity/7575679?gh_jid=7575679 | Okta | Staff Site Reliability Engineer, Kubernetes w/ active TS/SCI — SKIP: clearance required
+- [!] https://www.okta.com/company/careers/opportunity/7674807?gh_jid=7674807 | Okta | Staff Site Reliability Engineer, Networking (FedRamp) — SKIP: clearance required
+- [!] https://www.okta.com/company/careers/opportunity/7707836?gh_jid=7707836 | Okta | Staff Site Reliability Engineer - Observability — SKIP: on-site US cities
+- [!] https://www.okta.com/company/careers/opportunity/7658254?gh_jid=7658254 | Okta | Staff Site Reliability Engineer - Observability — SKIP: on-site US cities
+- [!] https://www.okta.com/company/careers/opportunity/6671260?gh_jid=6671260 | Okta | Staff Site Reliability Engineer, Security- GCP — SKIP: Bengaluru
+- [!] https://www.okta.com/company/careers/opportunity/6874616?gh_jid=6874616 | Okta | Staff Site Reliability Engineer- Splunk Expert — SKIP: Bengaluru
+- [!] https://boards.greenhouse.io/figma/jobs/5985406004?gh_jid=5985406004 | Figma | Community Support Specialist, Weekend (London) — SKIP: London
+- [!] https://boards.greenhouse.io/figma/jobs/5840332004?gh_jid=5840332004 | Figma | Data Platform Engineer — SKIP: wrong role
+- [!] https://boards.greenhouse.io/figma/jobs/5995989004?gh_jid=5995989004 | Figma | Enterprise Support Specialist (Bengaluru) — SKIP: India
+- [!] https://boards.greenhouse.io/figma/jobs/5978411004?gh_jid=5978411004 | Figma | Enterprise Support Specialist, Japanese Speaking (Tokyo) — SKIP: Tokyo
+- [!] https://boards.greenhouse.io/figma/jobs/6010954004?gh_jid=6010954004 | Figma | Enterprise Support Specialist, Korean Speaking (Singapore) — SKIP: Singapore
+- [!] https://boards.greenhouse.io/figma/jobs/6019398004?gh_jid=6019398004 | Figma | Product Support Specialist — SKIP: SF/NY likely on-site
+- [!] https://boards.greenhouse.io/figma/jobs/5990353004?gh_jid=5990353004 | Figma | Technical Support Specialist - Figma Weave (San Francisco) — SKIP: SF on-site
+- [!] https://careers.datadoghq.com/detail/7707345/?gh_jid=7707345 | Datadog | Director, Technical Support Engineering — SKIP: director, Mexico City/Brazil
+- [!] https://careers.datadoghq.com/detail/7947006/?gh_jid=7947006 | Datadog | Manager II, Engineering - SRE — SKIP: France/Ireland, manager
+- [!] https://careers.datadoghq.com/detail/7948501/?gh_jid=7948501 | Datadog | Manager II, Technical Support Engineering — SKIP: Sydney, manager
+- [!] https://careers.datadoghq.com/detail/7756975/?gh_jid=7756975 | Datadog | Manager I, IT Support — SKIP: Paris France
+- [!] https://careers.datadoghq.com/detail/7343626/?gh_jid=7343626 | Datadog | Manager I, Technical Support Engineering — SKIP: Tokyo, manager
+- [!] https://careers.datadoghq.com/detail/7979808/?gh_jid=7979808 | Datadog | Technical Support Engineer 1 — SKIP: Dublin Ireland
+- [!] https://careers.datadoghq.com/detail/7858550/?gh_jid=7858550 | Datadog | Technical Support Engineer 2 (Brazil) — SKIP: Brazil
+- [!] https://careers.datadoghq.com/detail/7905764/?gh_jid=7905764 | Datadog | Technical Support Engineer 2 (Mexico City) — SKIP: Mexico
+- [!] https://careers.datadoghq.com/detail/7496253/?gh_jid=7496253 | Datadog | Technical Support Engineer 2, Premier - EMEA — SKIP: Europe
+- [!] https://careers.datadoghq.com/detail/7758574/?gh_jid=7758574 | Datadog | Technical Support Engineer 3, Premier - San Francisco — SKIP: SF on-site
+- [!] https://jobs.elastic.co/jobs?gh_jid=7922458&gh_jid=7922458 | Elastic | IT Support Technician — SKIP: Austin TX on-site
+- [!] https://jobs.elastic.co/jobs?gh_jid=7976540&gh_jid=7976540 | Elastic | Principal SRE (Networking) — SKIP: likely too senior/platform-focused
+- [!] https://jobs.elastic.co/jobs?gh_jid=7976572&gh_jid=7976572 | Elastic | Senior SRE - Platform (MKI) — SKIP: Canada
+- [!] https://job-boards.greenhouse.io/gusto/jobs/7964801 | Gusto | Consumer Money Support Specialist, Tier 2 — SKIP: wrong role, Denver/Phoenix
+- [!] https://job-boards.greenhouse.io/gusto/jobs/7833228 | Gusto | Senior Staff Network Engineer - Network Security — SKIP: SF, wrong role focus
+- [!] https://www.brex.com/careers/8493078002?gh_jid=8493078002 | Brex | Support Specialist — SKIP: Vancouver Canada
+- [!] https://job-boards.greenhouse.io/intercom/jobs/7820671 | Intercom | AI Infrastructure Engineer — SKIP: Dublin
+- [!] https://job-boards.greenhouse.io/intercom/jobs/7930382 | Intercom | IT Systems Engineer — SKIP: Dublin/London
+- [!] https://job-boards.greenhouse.io/intercom/jobs/7915211 | Intercom | Technical Support Engineer (Saturday - Wednesday) — SKIP: Dublin
+- [!] https://jobs.dropbox.com/listing/7872715?gh_jid=7872715 | Dropbox | Network Engineer — SKIP: Poland
+- [!] https://jobs.dropbox.com/listing/7539817?gh_jid=7539817 | Dropbox | Site Reliability Engineer — SKIP: Mexico
+- [!] https://job-boards.greenhouse.io/carta/jobs/7688689003 | Carta | Senior Site Reliability Engineer — SKIP: SF/Santa Clara/Seattle likely on-site
+- [!] https://www.mongodb.com/careers/job/?gh_jid=7650199 | MongoDB | Manager, SRE - Fleet Management — SKIP: manager role
+- [!] https://www.mongodb.com/careers/job/?gh_jid=7818635 | MongoDB | Manager, SRE - Storage Layer Service — SKIP: Dublin, manager
+- [!] https://www.mongodb.com/careers/job/?gh_jid=7924987 | MongoDB | Senior Platform Engineer — SKIP: Gurugram India
+- [!] https://www.mongodb.com/careers/job/?gh_jid=7821318 | MongoDB | Site Reliability Engineer 3 — SKIP: Dublin
+- [!] https://www.mongodb.com/careers/job/?gh_jid=7758610 | MongoDB | SRE (Senior or Staff), Infrastructure Security — SKIP: US cities, on-site
+- [!] https://www.mongodb.com/careers/job/?gh_jid=7743366 | MongoDB | SRE (Senior or Staff), Storage Layer Services — SKIP: US cities, on-site
+- [!] https://www.mongodb.com/careers/job/?gh_jid=6984814 | MongoDB | SRE (Senior or Staff), Storage Layer Services — SKIP: Dublin
+- [!] https://www.mongodb.com/careers/job/?gh_jid=7727920 | MongoDB | Staff SRE, Fabric — SKIP: staff SRE, platform-focused
+- [!] https://www.mongodb.com/careers/job/?gh_jid=7555398 | MongoDB | Staff Technical Program Manager, SRE — SKIP: TPM role
+- [!] https://job-boards.greenhouse.io/verkada/jobs/5126462007 | Verkada | IT Engineer — SKIP: San Mateo CA on-site
+- [!] https://job-boards.greenhouse.io/verkada/jobs/5139505007 | Verkada | IT Engineer — SKIP: Austin TX on-site
+- [!] https://job-boards.greenhouse.io/verkada/jobs/4997665007 | Verkada | Senior Technical Support Engineer — SKIP: San Mateo CA on-site
+- [!] https://job-boards.greenhouse.io/verkada/jobs/5146680007 | Verkada | Sr. IT Systems Engineer — SKIP: San Mateo CA on-site
+- [!] https://job-boards.greenhouse.io/verkada/jobs/4134221007 | Verkada | Technical Support Engineer — SKIP: London
+- [!] https://job-boards.greenhouse.io/verkada/jobs/5162206007 | Verkada | Technical Support Engineer - Industrial Placement 2027 — SKIP: London, internship
+- [!] https://job-boards.greenhouse.io/verkada/jobs/5144834007 | Verkada | Technical Support Engineering Manager — SKIP: San Mateo CA on-site, manager
+- [!] https://job-boards.greenhouse.io/verkada/jobs/4715534007 | Verkada | Technical Support Engineer - University Graduate 2026 — SKIP: San Mateo CA on-site, entry level
+- [!] https://job-boards.greenhouse.io/keepersecurity/jobs/4091091009 | Keeper Security | Senior DevOps Engineer (IL5 / FedRAMP High) — SKIP: clearance required
+- [!] https://apply.workable.com/panorama-education/jobs/view/E549B2D01A | Panorama Education | GTM System Administrator — SKIP: GTM/marketing systems, not IT ops
