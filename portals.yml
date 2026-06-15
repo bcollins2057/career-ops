@@ -1,0 +1,787 @@
+# Portal Scanner Configuration
+# Used by /career-ops scan to discover new offers automatically.
+#
+# Strategy (3 levels):
+#   1. Playwright → careers_url of each company (real-time, reliable)
+#   2. Greenhouse API → structured JSON (fast, Greenhouse-only)
+#   3. WebSearch with site: filters (broad discovery, may be stale)
+#
+# IMPORTANT: Each company in tracked_companies MUST have careers_url.
+#
+# HOW TO CUSTOMIZE:
+#   1. Copy this file to portals.yml in the project root
+#   2. Edit title_filter.positive with YOUR target role keywords
+#   3. Add/remove companies in tracked_companies
+#   4. Adjust search_queries for your preferred job boards
+#   5. Set enabled: false on companies you don't care about
+
+# -- Title filter --
+# The scanner uses these keywords to decide if a title is relevant.
+# At least 1 positive must match AND 0 negatives must match (case-insensitive).
+
+title_filter:
+  positive:
+    # -- Systems Engineer --
+    - "Systems Engineer"
+    - "Infrastructure Engineer"
+    - "Network Engineer"
+    - "Network Administrator"
+    - "Cloud Engineer"
+    - "Platform Engineer"
+    - "Site Reliability"
+    - "SRE"
+    - "DevOps Engineer"
+    - "IT Engineer"
+    # -- Systems Administrator --
+    - "Systems Administrator"
+    - "Sysadmin"
+    - "System Administrator"
+    - "Windows Administrator"
+    - "Linux Administrator"
+    - "Server Administrator"
+    - "IT Administrator"
+    - "Active Directory"
+    - "Infrastructure Administrator"
+    # -- Help Desk / IT Support --
+    - "Help Desk"
+    - "Helpdesk"
+    - "IT Support"
+    - "IT Technician"
+    - "Desktop Support"
+    - "Service Desk"
+    - "IT Specialist"
+    - "Technical Support"
+    - "End User Support"
+    - "Field Technician"
+    - "IT Analyst"
+    - "Support Technician"
+    - "Support Specialist"
+    - "IT Coordinator"
+    # -- Broad IT --
+    - "IT Operations"
+    - "IT Infrastructure"
+    - "NOC Technician"
+    - "NOC Engineer"
+    - "Endpoint Management"
+    - "Identity and Access"
+    - "IAM"
+  negative:
+    - "Intern"
+    - "Software Engineer"
+    - "Software Developer"
+    - "Data Engineer"
+    - "Machine Learning"
+    - "AI Engineer"
+    - "iOS"
+    - "Android"
+    - "PHP"
+    - "Ruby"
+    - "Embedded"
+    - "Firmware"
+    - "FPGA"
+    - "Blockchain"
+    - "Web3"
+    - "Crypto"
+    - "SAP Basis"
+    - "Mainframe"
+    - "COBOL"
+    - "Salesforce Administrator"
+    - "Sales Engineer"
+    - "Customer Success"
+    - "Account Executive"
+    - "Marketing"
+  seniority_boost:
+    - "Senior"
+    - "Lead"
+    - "Principal"
+    - "Staff"
+    - "Tier 2"
+    - "Tier 3"
+    - "Level II"
+    - "Level III"
+
+# -- RSS Feeds --
+# Checked weekly for new remote IT postings.
+# These are the highest-signal free feeds for remote help desk / sysadmin work.
+
+rss_feeds:
+  - name: We Work Remotely — DevOps & Sysadmin
+    url: https://weworkremotely.com/categories/remote-devops-sysadmin-jobs.rss
+    enabled: true
+
+  - name: We Work Remotely — IT Support
+    url: https://weworkremotely.com/categories/remote-customer-support-jobs.rss
+    enabled: true
+    notes: "Broad category — filter by title_filter"
+
+  - name: RemoteOK — IT & Sysadmin
+    url: https://remoteok.com/remote-sysadmin+it-jobs.rss
+    enabled: true
+
+  - name: Himalayas — IT & Systems
+    url: https://himalayas.app/jobs/rss?categories=IT+%26+Systems
+    enabled: true
+
+  - name: Remote.co — IT
+    url: https://remote.co/job-category/systems-administration/feed/
+    enabled: true
+
+  - name: Remotive — DevOps & IT
+    url: https://remotive.com/remote-jobs/devops/feed
+    enabled: true
+
+  - name: Remotive — IT Support
+    url: https://remotive.com/remote-jobs/it/feed
+    enabled: true
+
+  - name: Jobicy — IT & Sysadmin
+    url: https://jobicy.com/?feed=job_feed&job_categories=it-sysadmin&remote=1
+    enabled: true
+
+  - name: Working Nomads — IT
+    url: https://www.workingnomads.com/jobs?category=it&format=rss
+    enabled: true
+
+  - name: Jobspresso — DevOps & IT
+    url: https://jobspresso.co/remote-work/devops-sysadmin/feed/
+    enabled: true
+
+  - name: SkipTheDrive — IT & Systems
+    url: https://www.skipthedrive.com/jobs/it-jobs/feed/
+    enabled: true
+
+  - name: NoDesk — Remote IT
+    url: https://nodesk.co/remote-jobs/it/feed/
+    enabled: true
+
+  - name: EuroRemote — IT & Infrastructure
+    url: https://euroremote.eu/feed/?post_type=job_listing&job_category=it-infrastructure
+    enabled: true
+    notes: "European remote IT roles — filter by title_filter for relevance"
+
+# -- Search queries --
+# Each query triggers a WebSearch. Use site: to filter by portal.
+
+search_queries:
+  # -- Greenhouse --
+  - name: Greenhouse — Systems Engineer
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "Systems Engineer" OR "Infrastructure Engineer" OR "Network Engineer" remote'
+    enabled: true
+
+  - name: Greenhouse — Sysadmin
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "Systems Administrator" OR "Sysadmin" OR "IT Administrator" remote'
+    enabled: true
+
+  - name: Greenhouse — Help Desk & IT Support
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "Help Desk" OR "IT Support" OR "Desktop Support" OR "Service Desk" OR "Support Specialist" remote'
+    enabled: true
+
+  # -- Lever --
+  - name: Lever — Systems Engineer & Sysadmin
+    query: 'site:jobs.lever.co "Systems Engineer" OR "Systems Administrator" OR "Infrastructure Engineer" remote'
+    enabled: true
+
+  - name: Lever — Help Desk & IT Support
+    query: 'site:jobs.lever.co "Help Desk" OR "IT Support" OR "Desktop Support" OR "IT Technician" OR "Service Desk" remote'
+    enabled: true
+
+  # -- Ashby --
+  - name: Ashby — Sysadmin & IT Support
+    query: 'site:jobs.ashbyhq.com "Systems Administrator" OR "IT Administrator" OR "IT Support" OR "Help Desk" OR "Service Desk" remote'
+    enabled: true
+
+  - name: Ashby — Systems Engineer & Infrastructure
+    query: 'site:jobs.ashbyhq.com "Systems Engineer" OR "Infrastructure Engineer" OR "IT Specialist" OR "Technical Support" remote'
+    enabled: true
+
+  # -- Workable --
+  - name: Workable — IT Support & Sysadmin
+    query: 'site:apply.workable.com "Help Desk" OR "IT Support" OR "Systems Administrator" OR "Systems Engineer" OR "Service Desk" remote'
+    enabled: true
+
+  # -- Himalayas (remote-first aggregator) --
+  - name: Himalayas — IT Support & Sysadmin
+    query: 'site:himalayas.app "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Service Desk" OR "Desktop Support"'
+    enabled: true
+
+  - name: Himalayas — Systems Engineer & Infrastructure
+    query: 'site:himalayas.app "Systems Engineer" OR "Infrastructure Engineer" OR "IT Specialist" OR "Technical Support Specialist"'
+    enabled: true
+
+  # -- BuiltIn (tech company job board) --
+  - name: BuiltIn — IT Support & Sysadmin (Remote)
+    query: 'site:builtin.com "Systems Administrator" OR "IT Support" OR "Help Desk" OR "Desktop Support" OR "Service Desk" remote'
+    enabled: true
+
+  - name: BuiltIn — Systems Engineer (Remote)
+    query: 'site:builtin.com "Systems Engineer" OR "Infrastructure Engineer" OR "IT Specialist" remote'
+    enabled: true
+
+  # -- Dice (tech-focused job board) --
+  - name: Dice — Sysadmin & IT Support (Remote)
+    query: 'site:dice.com "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Desktop Support" remote'
+    enabled: true
+
+  - name: Dice — Systems Engineer (Remote)
+    query: 'site:dice.com "Systems Engineer" OR "Infrastructure Engineer" OR "Network Administrator" remote'
+    enabled: true
+
+  # -- Remote-specific boards --
+  - name: Remote.co — IT & Sysadmin
+    query: 'site:remote.co "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Desktop Support"'
+    enabled: true
+
+  - name: FlexJobs — Remote IT Support
+    query: 'site:flexjobs.com "Help Desk" OR "IT Support" OR "Systems Administrator" OR "Desktop Support" remote'
+    enabled: true
+
+  # -- Indeed --
+  - name: Indeed — Remote Sysadmin & IT Support
+    query: 'site:indeed.com "Systems Administrator" OR "IT Support" OR "Help Desk" OR "Service Desk" "remote" -"on-site" -"on site"'
+    enabled: true
+
+  - name: Indeed — Remote Systems & Infrastructure Engineer
+    query: 'site:indeed.com "Systems Engineer" OR "Infrastructure Engineer" OR "Network Administrator" "remote" -"on-site" -"on site"'
+    enabled: true
+
+  # -- ZipRecruiter --
+  - name: ZipRecruiter — Remote Sysadmin & IT Support
+    query: 'site:ziprecruiter.com "Systems Administrator" OR "IT Support" OR "Help Desk" OR "Service Desk" remote'
+    enabled: true
+
+  - name: ZipRecruiter — Remote Systems Engineer
+    query: 'site:ziprecruiter.com "Systems Engineer" OR "Infrastructure Engineer" OR "Network Engineer" remote'
+    enabled: true
+
+  # -- SimplyHired --
+  - name: SimplyHired — Remote IT Support & Sysadmin
+    query: 'site:simplyhired.com "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Service Desk" remote'
+    enabled: true
+
+  # -- Monster --
+  - name: Monster — Remote Sysadmin & IT Support
+    query: 'site:monster.com "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Desktop Support" remote'
+    enabled: true
+
+  # -- Wellfound (AngelList) — startup IT roles --
+  - name: Wellfound — Remote IT & Infrastructure
+    query: 'site:wellfound.com "Systems Administrator" OR "IT Support" OR "Help Desk" OR "Infrastructure Engineer" remote'
+    enabled: true
+
+  # -- USAJobs — federal remote IT --
+  - name: USAJobs — Remote IT & Sysadmin
+    query: 'site:usajobs.gov "Systems Administrator" OR "IT Specialist" OR "Network Administrator" OR "Help Desk" remote'
+    enabled: true
+
+  # -- ClearanceJobs — cleared IT roles --
+  - name: ClearanceJobs — Remote Sysadmin & IT Support
+    query: 'site:clearancejobs.com "Systems Administrator" OR "Help Desk" OR "Network Administrator" OR "IT Support" remote'
+    enabled: true
+    notes: "Requires/prefers security clearance — useful if candidate holds or is pursuing clearance"
+
+  # -- Cyberseek / security-adjacent --
+  - name: Broad — Remote NOC & Network Admin
+    query: '"NOC Technician" OR "NOC Engineer" OR "Network Administrator" OR "Network Operations" remote -site:linkedin.com'
+    enabled: true
+
+  # -- Broad searches --
+  - name: Broad — Sysadmin Remote
+    query: '"Systems Administrator" OR "Sysadmin" "Active Directory" OR "Azure AD" OR "Microsoft 365" remote -site:linkedin.com'
+    enabled: true
+
+  - name: Broad — Help Desk Remote
+    query: '"Help Desk" OR "Service Desk" OR "IT Support Specialist" "remote" "PowerShell" OR "Active Directory" OR "Microsoft 365" -site:linkedin.com'
+    enabled: true
+
+  - name: Broad — WFH IT Support (explicit)
+    query: '"work from home" OR "WFH" OR "100% remote" "Help Desk" OR "IT Support" OR "Service Desk" OR "Systems Administrator" -site:linkedin.com'
+    enabled: true
+
+# -- Tracked companies --
+# Companies whose career pages are checked directly.
+# scan_method: playwright (default), websearch, greenhouse_api
+
+tracked_companies:
+
+  # =====================================================================
+  # GREENHOUSE API — checked directly via API (fastest, most reliable)
+  # =====================================================================
+
+  - name: Automox
+    careers_url: https://job-boards.greenhouse.io/automox
+    scan_method: greenhouse_api
+    greenhouse_slug: automox
+    notes: "Endpoint management platform. Confirmed remote IT sysadmin roles."
+    enabled: true
+
+  - name: Intelligent Technical Solutions (ITS)
+    careers_url: https://job-boards.greenhouse.io/its
+    scan_method: greenhouse_api
+    greenhouse_slug: its
+    notes: "MSP. Remote IT support roles — watch comp (some offshore pay)."
+    enabled: true
+
+  - name: Cloudflare
+    careers_url: https://job-boards.greenhouse.io/cloudflare
+    scan_method: greenhouse_api
+    greenhouse_slug: cloudflare
+    notes: "Network/security platform. Internal IT and infrastructure roles."
+    enabled: true
+
+  - name: Stripe
+    careers_url: https://job-boards.greenhouse.io/stripe
+    scan_method: greenhouse_api
+    greenhouse_slug: stripe
+    notes: "Payments platform. Corporate IT and sysadmin roles."
+    enabled: true
+
+  - name: Figma
+    careers_url: https://job-boards.greenhouse.io/figma
+    scan_method: greenhouse_api
+    greenhouse_slug: figma
+    notes: "Design platform. Corporate IT roles."
+    enabled: true
+
+  - name: Notion
+    careers_url: https://job-boards.greenhouse.io/notion
+    scan_method: greenhouse_api
+    greenhouse_slug: notion
+    notes: "Productivity SaaS. Internal IT support and sysadmin roles."
+    enabled: true
+
+  - name: Airtable
+    careers_url: https://job-boards.greenhouse.io/airtable
+    scan_method: greenhouse_api
+    greenhouse_slug: airtable
+    notes: "No-code platform. Corporate IT roles."
+    enabled: true
+
+  - name: Datadog
+    careers_url: https://job-boards.greenhouse.io/datadog
+    scan_method: greenhouse_api
+    greenhouse_slug: datadog
+    notes: "Monitoring platform. Internal IT and infrastructure roles."
+    enabled: true
+
+  - name: Twilio
+    careers_url: https://job-boards.greenhouse.io/twilio
+    scan_method: greenhouse_api
+    greenhouse_slug: twilio
+    notes: "Communications platform. Corporate IT and infra roles."
+    enabled: true
+
+  - name: Okta
+    careers_url: https://job-boards.greenhouse.io/okta
+    scan_method: greenhouse_api
+    greenhouse_slug: okta
+    notes: "Identity platform. IT and IAM roles."
+    enabled: true
+
+  - name: Zendesk
+    careers_url: https://job-boards.greenhouse.io/zendesk
+    scan_method: greenhouse_api
+    greenhouse_slug: zendesk
+    notes: "Customer service platform. Internal IT and support roles."
+    enabled: true
+
+  - name: Squarespace
+    careers_url: https://job-boards.greenhouse.io/squarespace
+    scan_method: greenhouse_api
+    greenhouse_slug: squarespace
+    notes: "Website platform. Corporate IT roles."
+    enabled: true
+
+  - name: Dropbox
+    careers_url: https://job-boards.greenhouse.io/dropbox
+    scan_method: greenhouse_api
+    greenhouse_slug: dropbox
+    notes: "Cloud storage. Remote-first company with internal IT roles."
+    enabled: true
+
+  - name: Box
+    careers_url: https://job-boards.greenhouse.io/box
+    scan_method: greenhouse_api
+    greenhouse_slug: box
+    notes: "Cloud content management. IT and infrastructure roles."
+    enabled: true
+
+  - name: Elastic
+    careers_url: https://job-boards.greenhouse.io/elastic
+    scan_method: greenhouse_api
+    greenhouse_slug: elastic
+    notes: "Search/observability platform. IT and infra roles."
+    enabled: true
+
+  - name: MongoDB
+    careers_url: https://job-boards.greenhouse.io/mongodb
+    scan_method: greenhouse_api
+    greenhouse_slug: mongodb
+    notes: "Database platform. Corporate IT and infrastructure roles."
+    enabled: true
+
+  - name: Intercom
+    careers_url: https://job-boards.greenhouse.io/intercom
+    scan_method: greenhouse_api
+    greenhouse_slug: intercom
+    notes: "Customer messaging platform. Internal IT roles."
+    enabled: true
+
+  - name: Brex
+    careers_url: https://job-boards.greenhouse.io/brex
+    scan_method: greenhouse_api
+    greenhouse_slug: brex
+    notes: "Fintech. Corporate IT and security roles."
+    enabled: true
+
+  - name: Gusto
+    careers_url: https://job-boards.greenhouse.io/gusto
+    scan_method: greenhouse_api
+    greenhouse_slug: gusto
+    notes: "HR/payroll platform. Internal IT support and sysadmin."
+    enabled: true
+
+  - name: Rippling
+    careers_url: https://job-boards.greenhouse.io/rippling
+    scan_method: greenhouse_api
+    greenhouse_slug: rippling
+    notes: "HR/IT platform. Internal IT roles."
+    enabled: true
+
+  - name: Carta
+    careers_url: https://job-boards.greenhouse.io/carta
+    scan_method: greenhouse_api
+    greenhouse_slug: carta
+    notes: "Equity management platform. Corporate IT roles."
+    enabled: true
+
+  - name: Vanta
+    careers_url: https://job-boards.greenhouse.io/vanta
+    scan_method: greenhouse_api
+    greenhouse_slug: vanta
+    notes: "Compliance automation. IT and security roles."
+    enabled: true
+
+  - name: Drata
+    careers_url: https://job-boards.greenhouse.io/drata
+    scan_method: greenhouse_api
+    greenhouse_slug: drata
+    notes: "Compliance/security platform. IT and sysadmin roles."
+    enabled: true
+
+  - name: Verkada
+    careers_url: https://job-boards.greenhouse.io/verkada
+    scan_method: greenhouse_api
+    greenhouse_slug: verkada
+    notes: "Physical security platform. IT and infrastructure roles."
+    enabled: true
+
+  - name: Keeper Security
+    careers_url: https://job-boards.greenhouse.io/keepersecurity
+    scan_method: greenhouse_api
+    greenhouse_slug: keepersecurity
+    notes: "Password/secrets management. IT and security support roles."
+    enabled: true
+
+  - name: Procore
+    careers_url: https://job-boards.greenhouse.io/procore
+    scan_method: greenhouse_api
+    greenhouse_slug: procore
+    notes: "Construction tech platform. Corporate IT and help desk."
+    enabled: true
+
+  - name: Veeva Systems
+    careers_url: https://job-boards.greenhouse.io/veeva
+    scan_method: greenhouse_api
+    greenhouse_slug: veeva
+    notes: "Life sciences cloud. IT and infrastructure roles."
+    enabled: true
+
+  - name: Instructure (Canvas)
+    careers_url: https://job-boards.greenhouse.io/instructure
+    scan_method: greenhouse_api
+    greenhouse_slug: instructure
+    notes: "EdTech/LMS. IT support and sysadmin roles."
+    enabled: true
+
+  - name: Panorama Education
+    careers_url: https://apply.workable.com/panorama-education
+    scan_method: websearch
+    scan_query: 'site:apply.workable.com "panorama education" "IT" OR "Systems" OR "Help Desk"'
+    notes: "EdTech. Remote IT Systems Admin role ($85-125K) in current pipeline."
+    enabled: true
+
+  # =====================================================================
+  # MSPs & IT SERVICES — websearch
+  # =====================================================================
+
+  - name: Kyndryl
+    careers_url: https://www.kyndryl.com/us/en/careers
+    scan_method: websearch
+    scan_query: '"kyndryl" careers "Systems Administrator" OR "Help Desk" OR "Service Desk" OR "IT Support" remote'
+    notes: "IBM IT services spinoff. One of the world's largest IT infrastructure companies. High volume of remote IT support and sysadmin roles."
+    enabled: true
+
+  - name: DXC Technology
+    careers_url: https://dxc.com/us/en/about-dxc/careers
+    scan_method: websearch
+    scan_query: '"dxc technology" careers "Systems Administrator" OR "Help Desk" OR "Systems Engineer" OR "IT Support" remote'
+    notes: "Global IT services & MSP. Large volume of sysadmin and support roles."
+    enabled: true
+
+  - name: Cognizant
+    careers_url: https://careers.cognizant.com
+    scan_method: websearch
+    scan_query: 'site:careers.cognizant.com "Systems Administrator" OR "IT Support" OR "Help Desk" OR "Infrastructure Engineer" remote'
+    notes: "Global IT services. Frequent hiring for sysadmin and support roles."
+    enabled: true
+
+  - name: Unisys
+    careers_url: https://www.unisys.com/careers
+    scan_method: websearch
+    scan_query: '"unisys" careers "Help Desk" OR "Service Desk" OR "Systems Administrator" OR "IT Support" remote'
+    notes: "IT services. Strong presence in managed desktop and service desk."
+    enabled: true
+
+  - name: Conduent
+    careers_url: https://jobs.conduent.com
+    scan_method: websearch
+    scan_query: 'site:jobs.conduent.com "Help Desk" OR "IT Support" OR "Service Desk" OR "Desktop Support" remote'
+    notes: "Business process services. Regular help desk and IT support openings."
+    enabled: true
+
+  - name: HCLTech
+    careers_url: https://www.hcltech.com/careers
+    scan_method: websearch
+    scan_query: '"hcltech" OR "hcl tech" careers "Systems Administrator" OR "Help Desk" OR "Infrastructure Engineer" remote'
+    notes: "Global IT services. Active hiring for infrastructure and support roles."
+    enabled: true
+
+  - name: Presidio
+    careers_url: https://www.presidio.com/careers
+    scan_method: websearch
+    scan_query: '"presidio" careers "Help Desk" OR "Service Desk" OR "Systems Administrator" OR "IT Support" remote'
+    notes: "Large US MSP and IT services. Frequent remote IT support and sysadmin openings."
+    enabled: true
+
+  - name: Logicalis
+    careers_url: https://us.logicalis.com/careers
+    scan_method: websearch
+    scan_query: '"logicalis" careers "Systems Administrator" OR "Help Desk" OR "Network Engineer" OR "IT Support" remote'
+    notes: "Global MSP. Remote-friendly IT support and infrastructure roles."
+    enabled: true
+
+  - name: World Wide Technology (WWT)
+    careers_url: https://www.wwt.com/careers
+    scan_method: websearch
+    scan_query: '"world wide technology" OR "wwt" careers "Systems Administrator" OR "Help Desk" OR "IT Support" remote'
+    notes: "Large IT solutions provider. Sysadmin, infra, and support roles."
+    enabled: true
+
+  - name: CDW
+    careers_url: https://www.cdw.com/content/cdw/en/careers.html
+    scan_method: websearch
+    scan_query: '"cdw" careers "Systems Engineer" OR "Help Desk" OR "IT Support" OR "Desktop Support" remote'
+    notes: "IT products and services. IT support and solutions roles."
+    enabled: true
+
+  - name: Ntiva
+    careers_url: https://www.ntiva.com/careers
+    scan_method: websearch
+    scan_query: '"ntiva" careers "Help Desk" OR "IT Support" OR "Systems Administrator" OR "Service Desk" remote'
+    notes: "Remote-friendly MSP. Frequent help desk and sysadmin openings."
+    enabled: true
+
+  - name: Avanade
+    careers_url: https://www.avanade.com/en/career
+    scan_method: websearch
+    scan_query: '"avanade" careers "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Infrastructure" remote'
+    notes: "Microsoft-focused IT services (Accenture + Microsoft JV). M365, Azure, Intune roles."
+    enabled: true
+
+  # =====================================================================
+  # DEFENSE & GOVERNMENT IT — websearch
+  # =====================================================================
+
+  - name: Leidos
+    careers_url: https://jobs.leidos.com
+    scan_method: websearch
+    scan_query: 'site:jobs.leidos.com "Systems Administrator" OR "Help Desk" OR "Network Administrator" OR "IT Support" remote'
+    notes: "Defense/gov IT. Frequent sysadmin and network admin openings, often require clearance."
+    enabled: true
+
+  - name: SAIC
+    careers_url: https://jobs.saic.com
+    scan_method: websearch
+    scan_query: 'site:jobs.saic.com "Systems Administrator" OR "Help Desk" OR "Network Engineer" OR "Infrastructure" remote'
+    notes: "Defense IT contractor. Large volume of IT support and sysadmin roles."
+    enabled: true
+
+  - name: Booz Allen Hamilton
+    careers_url: https://www.boozallen.com/careers.html
+    scan_method: websearch
+    scan_query: '"booz allen" careers "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Infrastructure Engineer" remote'
+    notes: "Gov IT consulting. IT support and infrastructure roles, many with clearance."
+    enabled: true
+
+  - name: ManTech
+    careers_url: https://www.mantech.com/careers
+    scan_method: websearch
+    scan_query: '"mantech" careers "Systems Administrator" OR "Network Administrator" OR "Help Desk" OR "IT Support" remote'
+    notes: "Defense IT. Regular openings for sysadmin and network admin roles."
+    enabled: true
+
+  # =====================================================================
+  # ENTERPRISE TECH & CLOUD — websearch
+  # =====================================================================
+
+  - name: IBM
+    careers_url: https://www.ibm.com/careers
+    scan_method: websearch
+    scan_query: 'site:ibm.com/careers "Systems Administrator" OR "Systems Engineer" OR "Help Desk" OR "IT Infrastructure" remote'
+    notes: "Large IT employer. Infra, managed services, and support roles globally."
+    enabled: true
+
+  - name: Dell Technologies
+    careers_url: https://jobs.dell.com
+    scan_method: websearch
+    scan_query: 'site:jobs.dell.com "Systems Engineer" OR "Systems Administrator" OR "IT Support" OR "Infrastructure" remote'
+    notes: "Hardware + services. Infrastructure and IT support roles."
+    enabled: true
+
+  - name: HP Inc
+    careers_url: https://jobs.hp.com
+    scan_method: websearch
+    scan_query: 'site:jobs.hp.com "Systems Administrator" OR "IT Support" OR "Help Desk" OR "Desktop Support" remote'
+    notes: "Hardware + IT services. Support and sysadmin roles."
+    enabled: true
+
+  - name: Cisco
+    careers_url: https://jobs.cisco.com
+    scan_method: websearch
+    scan_query: 'site:jobs.cisco.com "Systems Engineer" OR "Network Engineer" OR "IT Support" OR "Infrastructure Engineer" remote'
+    notes: "Networking leader. Network engineer and systems roles."
+    enabled: true
+
+  - name: Microsoft
+    careers_url: https://careers.microsoft.com
+    scan_method: websearch
+    scan_query: 'site:careers.microsoft.com "Systems Administrator" OR "IT Support" OR "Infrastructure Engineer" OR "Help Desk" remote'
+    notes: "Large IT org internally plus Azure-facing support roles."
+    enabled: true
+
+  - name: Amazon (AWS)
+    careers_url: https://www.amazon.jobs
+    scan_method: websearch
+    scan_query: 'site:amazon.jobs "Systems Administrator" OR "Infrastructure Engineer" OR "IT Support" OR "NOC" remote'
+    notes: "AWS data center ops and corporate IT. Sysadmin and NOC roles."
+    enabled: true
+
+  - name: Google
+    careers_url: https://careers.google.com
+    scan_method: websearch
+    scan_query: 'site:careers.google.com "Systems Administrator" OR "IT Support" OR "Help Desk" OR "Infrastructure Engineer" remote'
+    notes: "Large internal IT org (Googler support). Corp tech support and sysadmin."
+    enabled: true
+
+  - name: CrowdStrike
+    careers_url: https://www.crowdstrike.com/careers
+    scan_method: websearch
+    scan_query: '"crowdstrike" careers "IT Support" OR "Systems Administrator" OR "Help Desk" OR "IT Analyst" remote'
+    notes: "Cybersecurity platform. Remote-friendly internal IT and support roles."
+    enabled: true
+
+  - name: Palo Alto Networks
+    careers_url: https://jobs.paloaltonetworks.com
+    scan_method: websearch
+    scan_query: 'site:jobs.paloaltonetworks.com "IT Support" OR "Systems Administrator" OR "Help Desk" OR "IT Analyst" remote'
+    notes: "Cybersecurity. Internal IT support and sysadmin roles."
+    enabled: true
+
+  - name: ServiceNow
+    careers_url: https://jobs.jobvite.com/servicenow
+    scan_method: websearch
+    scan_query: '"servicenow" careers "IT Support" OR "Systems Administrator" OR "Help Desk" OR "IT Technician" remote'
+    notes: "ITSM platform. Internal IT support and sysadmin roles."
+    enabled: true
+
+  # =====================================================================
+  # HEALTHCARE IT — websearch
+  # =====================================================================
+
+  - name: Epic Systems
+    careers_url: https://careers.epic.com
+    scan_method: websearch
+    scan_query: 'site:careers.epic.com "Systems Administrator" OR "IT Support" OR "Infrastructure" OR "Help Desk" remote'
+    notes: "EHR software leader. Large IT infrastructure org."
+    enabled: true
+
+  - name: Oracle Health (Cerner)
+    careers_url: https://www.oracle.com/careers
+    scan_method: websearch
+    scan_query: '"oracle health" OR "cerner" careers "Systems Administrator" OR "IT Support" OR "Infrastructure Engineer" remote'
+    notes: "Healthcare IT. Infra and support roles across health systems."
+    enabled: true
+
+  # =====================================================================
+  # FINANCE IT — websearch
+  # =====================================================================
+
+  - name: JPMorgan Chase
+    careers_url: https://careers.jpmorgan.com
+    scan_method: websearch
+    scan_query: 'site:careers.jpmorgan.com "Systems Administrator" OR "Infrastructure Engineer" OR "IT Support" OR "Help Desk" remote'
+    notes: "Large internal IT org. Sysadmin, infra, and support roles."
+    enabled: true
+
+  - name: Bank of America
+    careers_url: https://careers.bankofamerica.com
+    scan_method: websearch
+    scan_query: '"bank of america" careers "Systems Administrator" OR "IT Support" OR "Infrastructure Engineer" OR "Help Desk" remote'
+    notes: "Large internal IT. Infrastructure and help desk roles."
+    enabled: true
+
+  # =====================================================================
+  # STAFFING / IT RECRUITERS — websearch (high volume of IT postings)
+  # =====================================================================
+
+  - name: Robert Half Technology
+    careers_url: https://www.roberthalf.com/us/en/jobs/it
+    scan_method: websearch
+    scan_query: 'site:roberthalf.com "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Systems Engineer" remote'
+    notes: "IT staffing. High volume of contract and perm sysadmin and support placements."
+    enabled: true
+
+  - name: TEKsystems
+    careers_url: https://www.teksystems.com/en/jobs
+    scan_method: websearch
+    scan_query: 'site:teksystems.com "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Desktop Support" remote'
+    notes: "IT staffing firm. Frequent contract and direct-hire IT support roles."
+    enabled: true
+
+  - name: Insight Global
+    careers_url: https://insightglobal.com/jobs
+    scan_method: websearch
+    scan_query: 'site:insightglobal.com "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Infrastructure" remote'
+    notes: "IT staffing. Active in sysadmin and help desk contract placements."
+    enabled: true
+
+  - name: Apex Systems
+    careers_url: https://www.apexsystems.com/job-search
+    scan_method: websearch
+    scan_query: 'site:apexsystems.com "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Desktop Support" remote'
+    notes: "Large IT staffing firm. Frequent remote IT support and sysadmin roles."
+    enabled: true
+
+  - name: Kforce
+    careers_url: https://www.kforce.com/job-seekers/job-search
+    scan_method: websearch
+    scan_query: 'site:kforce.com "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Infrastructure" remote'
+    notes: "Tech staffing firm. Contract and perm IT roles."
+    enabled: true
+
+  - name: Randstad Technologies
+    careers_url: https://www.randstadusa.com/jobs
+    scan_method: websearch
+    scan_query: '"randstad" "technologies" OR "digital" "Systems Administrator" OR "Help Desk" OR "IT Support" remote'
+    notes: "Global staffing. IT contract and direct-hire placements."
+    enabled: true
