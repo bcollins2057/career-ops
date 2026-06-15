@@ -67,6 +67,7 @@ title_filter:
     - "IAM"
   negative:
     - "Intern"
+    - "University Graduate"
     - "Software Engineer"
     - "Software Developer"
     - "Data Engineer"
@@ -90,6 +91,16 @@ title_filter:
     - "Customer Success"
     - "Account Executive"
     - "Marketing"
+    - "Manager,"
+    - "Manager II"
+    - "Manager I,"
+    - "Director,"
+    - "Director "
+    - "Vice President"
+    - "VP,"
+    - "Site Reliability"
+    - "SRE"
+    - "Platform Engineer"
   seniority_boost:
     - "Senior"
     - "Lead"
@@ -99,6 +110,126 @@ title_filter:
     - "Tier 3"
     - "Level II"
     - "Level III"
+
+# -- Location filter --
+# always_allow: location strings that always pass (even if they'd match a block keyword)
+# block: location strings that auto-reject the posting
+# If location is blank/unknown, the posting always passes (don't penalize missing data).
+
+location_filter:
+  always_allow:
+    - "remote"
+    - "colorado"
+    - "denver"
+    - "boulder"
+    - "colorado springs"
+    - "aurora"
+    - "fort collins"
+    - "broomfield"
+    - "englewood"
+    - "centennial"
+    - "westminster"
+    - "arvada"
+    - "lakewood"
+    - "highlands ranch"
+    - "castle rock"
+    - "pueblo"
+    - "grand junction"
+    - "thornton"
+    - "littleton"
+  block:
+    # Asia-Pacific
+    - "japan"
+    - "tokyo"
+    - "south korea"
+    - "korea"
+    - "seoul"
+    - "singapore"
+    - "australia"
+    - "sydney"
+    - "melbourne"
+    - "new zealand"
+    - "taiwan"
+    - "china"
+    - "hong kong"
+    - "thailand"
+    - "vietnam"
+    - "malaysia"
+    - "indonesia"
+    - "philippines"
+    - "manila"
+    # South Asia
+    - "india"
+    - "bengaluru"
+    - "bangalore"
+    - "hyderabad"
+    - "pune"
+    - "chennai"
+    - "mumbai"
+    - "delhi"
+    - "pakistan"
+    # Latin America
+    - "colombia"
+    - "brazil"
+    - "brasil"
+    - "mexico"
+    - "argentina"
+    - "chile"
+    - "peru"
+    - "latam"
+    # Europe
+    - "spain"
+    - "barcelona"
+    - "madrid"
+    - "germany"
+    - "berlin"
+    - "munich"
+    - "uk"
+    - "united kingdom"
+    - "london"
+    - "england"
+    - "dublin"
+    - "ireland"
+    - "france"
+    - "paris"
+    - "netherlands"
+    - "amsterdam"
+    - "poland"
+    - "sweden"
+    - "denmark"
+    - "norway"
+    - "finland"
+    - "switzerland"
+    - "austria"
+    - "portugal"
+    - "italy"
+    - "belgium"
+    - "czech"
+    - "romania"
+    - "hungary"
+    - "ukraine"
+    - "europe"
+    - "emea"
+    # Middle East / Africa
+    - "israel"
+    - "uae"
+    - "dubai"
+    - "saudi"
+    # Canada (US-only preference)
+    - "toronto"
+    - "canada"
+    - "montreal"
+    - "vancouver"
+    - "ottawa"
+
+# -- Salary filter --
+# Roles with a disclosed salary range entirely outside [min, max] are skipped.
+# Roles with no disclosed salary always pass — don't penalize missing data.
+
+salary_filter:
+  min: 60000
+  max: 140000
+  currency: USD
 
 # -- RSS Feeds --
 # Checked weekly for new remote IT postings.
@@ -285,16 +416,24 @@ search_queries:
     enabled: true
 
   # -- Broad searches --
-  - name: Broad — Sysadmin Remote
-    query: '"Systems Administrator" OR "Sysadmin" "Active Directory" OR "Azure AD" OR "Microsoft 365" remote -site:linkedin.com'
+  - name: Broad — Sysadmin Remote US
+    query: '"Systems Administrator" OR "Sysadmin" "Active Directory" OR "Azure AD" OR "Microsoft 365" remote "United States" -site:linkedin.com'
     enabled: true
 
-  - name: Broad — Help Desk Remote
-    query: '"Help Desk" OR "Service Desk" OR "IT Support Specialist" "remote" "PowerShell" OR "Active Directory" OR "Microsoft 365" -site:linkedin.com'
+  - name: Broad — Help Desk Remote US
+    query: '"Help Desk" OR "Service Desk" OR "IT Support Specialist" "remote" "United States" "PowerShell" OR "Active Directory" OR "Microsoft 365" -site:linkedin.com'
     enabled: true
 
   - name: Broad — WFH IT Support (explicit)
-    query: '"work from home" OR "WFH" OR "100% remote" "Help Desk" OR "IT Support" OR "Service Desk" OR "Systems Administrator" -site:linkedin.com'
+    query: '"work from home" OR "WFH" OR "100% remote" "Help Desk" OR "IT Support" OR "Service Desk" OR "Systems Administrator" "United States" -site:linkedin.com'
+    enabled: true
+
+  - name: Broad — Colorado IT On-site
+    query: '"Systems Administrator" OR "Help Desk" OR "IT Support" OR "Desktop Support" OR "IT Analyst" Colorado "Denver" OR "Boulder" OR "Colorado Springs" OR "Aurora" -site:linkedin.com'
+    enabled: true
+
+  - name: Broad — MSP Remote Sysadmin
+    query: '"managed service" OR "MSP" "Systems Administrator" OR "Help Desk" OR "IT Support" remote "United States" -site:linkedin.com'
     enabled: true
 
 # -- Tracked companies --
@@ -325,8 +464,8 @@ tracked_companies:
     careers_url: https://job-boards.greenhouse.io/cloudflare
     scan_method: greenhouse_api
     greenhouse_slug: cloudflare
-    notes: "Network/security platform. Internal IT and infrastructure roles."
-    enabled: true
+    notes: "Network/security platform. Pattern: posts software-engineering 'Systems Engineer' roles and non-US TSE. Low yield for mid-level IT ops."
+    enabled: false
 
   - name: Stripe
     careers_url: https://job-boards.greenhouse.io/stripe
@@ -339,8 +478,8 @@ tracked_companies:
     careers_url: https://job-boards.greenhouse.io/figma
     scan_method: greenhouse_api
     greenhouse_slug: figma
-    notes: "Design platform. Corporate IT roles."
-    enabled: true
+    notes: "Design platform. Pattern: London, SF on-site, Singapore. No US-remote IT hits."
+    enabled: false
 
   - name: Notion
     careers_url: https://job-boards.greenhouse.io/notion
@@ -360,22 +499,22 @@ tracked_companies:
     careers_url: https://job-boards.greenhouse.io/datadog
     scan_method: greenhouse_api
     greenhouse_slug: datadog
-    notes: "Monitoring platform. Internal IT and infrastructure roles."
-    enabled: true
+    notes: "Monitoring platform. Pattern: TSE roles mostly non-US; SE roles are SWE not IT. Low yield."
+    enabled: false
 
   - name: Twilio
     careers_url: https://job-boards.greenhouse.io/twilio
     scan_method: greenhouse_api
     greenhouse_slug: twilio
-    notes: "Communications platform. Corporate IT and infra roles."
-    enabled: true
+    notes: "Communications platform. Pattern: TSE2 roles in Japan/Colombia/India; manager-level only US. Disabled."
+    enabled: false
 
   - name: Okta
     careers_url: https://job-boards.greenhouse.io/okta
     scan_method: greenhouse_api
     greenhouse_slug: okta
-    notes: "Identity platform. IT and IAM roles."
-    enabled: true
+    notes: "Identity platform. Pattern: SRE roles in Bengaluru/Barcelona/clearance; no US-remote mid-level IT hits."
+    enabled: false
 
   - name: Zendesk
     careers_url: https://job-boards.greenhouse.io/zendesk
@@ -395,8 +534,8 @@ tracked_companies:
     careers_url: https://job-boards.greenhouse.io/dropbox
     scan_method: greenhouse_api
     greenhouse_slug: dropbox
-    notes: "Cloud storage. Remote-first company with internal IT roles."
-    enabled: true
+    notes: "Cloud storage. Pattern: NE roles Mexico/Poland; SRE roles staff-level IC5. No US-remote mid-level IT."
+    enabled: false
 
   - name: Box
     careers_url: https://job-boards.greenhouse.io/box
@@ -409,22 +548,22 @@ tracked_companies:
     careers_url: https://job-boards.greenhouse.io/elastic
     scan_method: greenhouse_api
     greenhouse_slug: elastic
-    notes: "Search/observability platform. IT and infra roles."
-    enabled: true
+    notes: "Search/observability platform. Pattern: SRE roles require Kubernetes/Go at scale — senior SWE level. Disabled."
+    enabled: false
 
   - name: MongoDB
     careers_url: https://job-boards.greenhouse.io/mongodb
     scan_method: greenhouse_api
     greenhouse_slug: mongodb
-    notes: "Database platform. Corporate IT and infrastructure roles."
-    enabled: true
+    notes: "Database platform. Pattern: SRE roles in Dublin/NYC/Canada; all senior-level. No US-remote mid-level IT."
+    enabled: false
 
   - name: Intercom
     careers_url: https://job-boards.greenhouse.io/intercom
     scan_method: greenhouse_api
     greenhouse_slug: intercom
-    notes: "Customer messaging platform. Internal IT roles."
-    enabled: true
+    notes: "Customer messaging platform. Pattern: IT roles in Dublin/London/SF on-site. Disabled."
+    enabled: false
 
   - name: Brex
     careers_url: https://job-boards.greenhouse.io/brex
@@ -472,15 +611,15 @@ tracked_companies:
     careers_url: https://job-boards.greenhouse.io/verkada
     scan_method: greenhouse_api
     greenhouse_slug: verkada
-    notes: "Physical security platform. IT and infrastructure roles."
-    enabled: true
+    notes: "Physical security platform. Pattern: all roles San Mateo CA on-site 5d/week. Disabled."
+    enabled: false
 
   - name: Keeper Security
     careers_url: https://job-boards.greenhouse.io/keepersecurity
     scan_method: greenhouse_api
     greenhouse_slug: keepersecurity
-    notes: "Password/secrets management. IT and security support roles."
-    enabled: true
+    notes: "Password/secrets management. Pattern: roles are C++/Rust software engineers, not IT ops. Disabled."
+    enabled: false
 
   - name: Procore
     careers_url: https://job-boards.greenhouse.io/procore
@@ -513,6 +652,126 @@ tracked_companies:
   # =====================================================================
   # MSPs & IT SERVICES — websearch
   # =====================================================================
+
+  # =====================================================================
+  # COLORADO-BASED COMPANIES — on-site or remote
+  # =====================================================================
+
+  - name: Pax8
+    careers_url: https://job-boards.greenhouse.io/pax8
+    scan_method: greenhouse_api
+    greenhouse_slug: pax8
+    notes: "Greenwood Village, CO cloud MSP. Strong IT operations hiring, Denver metro on-site roles."
+    enabled: true
+
+  - name: Optiv
+    careers_url: https://job-boards.greenhouse.io/optiv
+    scan_method: greenhouse_api
+    greenhouse_slug: optiv
+    notes: "Denver, CO cybersecurity company. IT and security support roles."
+    enabled: true
+
+  - name: DaVita
+    careers_url: https://job-boards.greenhouse.io/davita
+    scan_method: greenhouse_api
+    greenhouse_slug: davita
+    notes: "Denver, CO healthcare. Large IT department, sysadmin and support roles."
+    enabled: true
+
+  - name: TTEC
+    careers_url: https://job-boards.greenhouse.io/ttec
+    scan_method: greenhouse_api
+    greenhouse_slug: ttec
+    notes: "Englewood, CO. Customer experience + IT support hiring. Remote and on-site Colorado roles."
+    enabled: true
+
+  - name: Arrow Electronics
+    careers_url: https://job-boards.greenhouse.io/arrowelectronics
+    scan_method: websearch
+    scan_query: 'site:arrow.com/en-us/careers OR site:jobs.arrow.com "IT Support" OR "Systems Administrator" OR "Help Desk" OR "IT Analyst" Colorado OR remote'
+    notes: "Centennial, CO. Large technology distributor. IT ops and support roles."
+    enabled: true
+
+  - name: Dish Network / EchoStar
+    careers_url: https://job-boards.greenhouse.io/dishnetwork
+    scan_method: websearch
+    scan_query: '"dish network" OR "echostar" careers "Systems Administrator" OR "IT Support" OR "Help Desk" OR "Network Administrator" Colorado OR remote'
+    notes: "Englewood, CO. Large employer. Corporate IT and infrastructure roles."
+    enabled: true
+
+  - name: CommonSpirit Health
+    careers_url: https://careers.commonspirit.org
+    scan_method: websearch
+    scan_query: 'site:commonspirit.org careers "Systems Administrator" OR "IT Support" OR "Help Desk" OR "Desktop Support" remote OR Colorado'
+    notes: "Denver, CO-headquartered health system. Large IT department, remote-friendly roles."
+    enabled: true
+
+  - name: UCHealth
+    careers_url: https://www.uchealth.org/about/careers
+    scan_method: websearch
+    scan_query: '"uchealth" careers "Systems Administrator" OR "IT Support" OR "Help Desk" OR "Desktop Support" OR "Systems Engineer" Colorado OR remote'
+    notes: "Aurora, CO. Large Colorado health system with corporate IT hiring."
+    enabled: true
+
+  - name: Centura Health (now CommonSpirit)
+    careers_url: https://job-boards.greenhouse.io/centura
+    scan_method: websearch
+    scan_query: '"centura health" careers "Systems Administrator" OR "IT Support" OR "Help Desk" Colorado OR remote'
+    notes: "Centennial, CO. Candidate has prior experience here. Now part of CommonSpirit."
+    enabled: true
+
+  - name: Ball Corporation
+    careers_url: https://job-boards.greenhouse.io/ball
+    scan_method: websearch
+    scan_query: '"ball corporation" careers "Systems Administrator" OR "IT Support" OR "Help Desk" OR "IT Analyst" Colorado OR remote'
+    notes: "Westminster/Broomfield, CO. Aerospace/packaging. Large IT organization."
+    enabled: true
+
+  - name: Lockheed Martin
+    careers_url: https://www.lockheedmartinjobs.com
+    scan_method: websearch
+    scan_query: 'site:lockheedmartinjobs.com "Systems Administrator" OR "IT Support" OR "Help Desk" OR "IT Analyst" Colorado -"clearance required" -"Top Secret"'
+    notes: "Large CO presence (Littleton, CO Springs). Some IT roles don't require clearance."
+    enabled: true
+
+  - name: Raytheon / RTX
+    careers_url: https://jobs.rtx.com
+    scan_method: websearch
+    scan_query: 'site:jobs.rtx.com "Systems Administrator" OR "IT Support" OR "Help Desk" Colorado -"clearance" -"Secret"'
+    notes: "Aurora, CO. Defense contractor. Some uncleared IT support roles."
+    enabled: true
+
+  # =====================================================================
+  # MSPs & IT SERVICES — better mid-level IT signal
+  # =====================================================================
+
+  - name: Logically (MSP)
+    careers_url: https://job-boards.greenhouse.io/logically
+    scan_method: websearch
+    scan_query: '"logically" OR "logicalis" careers "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Service Desk" remote'
+    notes: "MSP. Remote sysadmin and help desk hiring."
+    enabled: true
+
+  - name: Ntiva (MSP)
+    careers_url: https://job-boards.greenhouse.io/ntiva
+    scan_method: websearch
+    scan_query: '"ntiva" careers "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Service Desk" remote'
+    notes: "MSP. Remote sysadmin and help desk hiring."
+    enabled: true
+
+  - name: Presidio
+    careers_url: https://job-boards.greenhouse.io/presidio
+    scan_method: greenhouse_api
+    greenhouse_slug: presidio
+    notes: "MSP/IT solutions. Remote sysadmin and infrastructure roles."
+    enabled: true
+
+  - name: CDW
+    careers_url: https://job-boards.greenhouse.io/cdw
+    scan_method: websearch
+    scan_query: '"cdw" careers "Systems Administrator" OR "IT Support" OR "Help Desk" OR "Infrastructure Engineer" remote'
+    notes: "Large IT solutions provider. Remote and on-site IT ops roles."
+    enabled: true
 
   - name: Kyndryl
     careers_url: https://www.kyndryl.com/us/en/careers
