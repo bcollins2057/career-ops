@@ -318,7 +318,7 @@ tracked_companies:
     careers_url: https://job-boards.greenhouse.io/its
     scan_method: greenhouse_api
     greenhouse_slug: its
-    notes: "MSP. Remote IT support roles — watch comp (some offshore pay)."
+    notes: "MSP. OFFSHORE PATTERN CONFIRMED: 'International (Remote)' label = Philippines. Sub-$16/hr = offshore rate. NBI Clearance requirement = Philippines disqualifier. Auto-skip any ITS role with these signals."
     enabled: true
 
   - name: Cloudflare
