@@ -482,9 +482,8 @@ tracked_companies:
     enabled: false
 
   - name: Notion
-    careers_url: https://job-boards.greenhouse.io/notion
-    scan_method: greenhouse_api
-    greenhouse_slug: notion
+    careers_url: https://jobs.ashbyhq.com/notion
+    scan_method: ashby
     notes: "Productivity SaaS. Internal IT support and sysadmin roles."
     enabled: true
 
@@ -517,9 +516,9 @@ tracked_companies:
     enabled: false
 
   - name: Zendesk
-    careers_url: https://job-boards.greenhouse.io/zendesk
-    scan_method: greenhouse_api
-    greenhouse_slug: zendesk
+    careers_url: https://www.zendesk.com/jobs
+    scan_method: websearch
+    scan_query: '"zendesk" careers "IT Support" OR "Systems Administrator" OR "Help Desk" OR "IT Analyst" remote'
     notes: "Customer service platform. Internal IT and support roles."
     enabled: true
 
@@ -538,9 +537,9 @@ tracked_companies:
     enabled: false
 
   - name: Box
-    careers_url: https://job-boards.greenhouse.io/box
+    careers_url: https://job-boards.greenhouse.io/boxinc
     scan_method: greenhouse_api
-    greenhouse_slug: box
+    greenhouse_slug: boxinc
     notes: "Cloud content management. IT and infrastructure roles."
     enabled: true
 
@@ -580,9 +579,9 @@ tracked_companies:
     enabled: true
 
   - name: Rippling
-    careers_url: https://job-boards.greenhouse.io/rippling
-    scan_method: greenhouse_api
-    greenhouse_slug: rippling
+    careers_url: https://www.rippling.com/careers
+    scan_method: websearch
+    scan_query: '"rippling" careers "IT Support" OR "Systems Administrator" OR "Help Desk" OR "IT Engineer" remote'
     notes: "HR/IT platform. Internal IT roles."
     enabled: true
 
@@ -594,16 +593,14 @@ tracked_companies:
     enabled: true
 
   - name: Vanta
-    careers_url: https://job-boards.greenhouse.io/vanta
-    scan_method: greenhouse_api
-    greenhouse_slug: vanta
+    careers_url: https://jobs.ashbyhq.com/vanta
+    scan_method: ashby
     notes: "Compliance automation. IT and security roles."
     enabled: true
 
   - name: Drata
-    careers_url: https://job-boards.greenhouse.io/drata
-    scan_method: greenhouse_api
-    greenhouse_slug: drata
+    careers_url: https://jobs.ashbyhq.com/drata
+    scan_method: ashby
     notes: "Compliance/security platform. IT and sysadmin roles."
     enabled: true
 
@@ -622,23 +619,21 @@ tracked_companies:
     enabled: false
 
   - name: Procore
-    careers_url: https://job-boards.greenhouse.io/procore
-    scan_method: greenhouse_api
-    greenhouse_slug: procore
+    careers_url: https://www.procore.com/en-us/careers
+    scan_method: websearch
+    scan_query: '"procore" careers "IT Support" OR "Systems Administrator" OR "Help Desk" OR "Desktop Support" remote'
     notes: "Construction tech platform. Corporate IT and help desk."
     enabled: true
 
   - name: Veeva Systems
-    careers_url: https://job-boards.greenhouse.io/veeva
-    scan_method: greenhouse_api
-    greenhouse_slug: veeva
+    careers_url: https://jobs.lever.co/veeva
+    scan_method: lever
     notes: "Life sciences cloud. IT and infrastructure roles."
     enabled: true
 
   - name: Instructure (Canvas)
-    careers_url: https://job-boards.greenhouse.io/instructure
-    scan_method: greenhouse_api
-    greenhouse_slug: instructure
+    careers_url: https://jobs.lever.co/instructure
+    scan_method: lever
     notes: "EdTech/LMS. IT support and sysadmin roles."
     enabled: true
 
@@ -658,42 +653,41 @@ tracked_companies:
   # =====================================================================
 
   - name: Pax8
-    careers_url: https://job-boards.greenhouse.io/pax8
-    scan_method: greenhouse_api
-    greenhouse_slug: pax8
+    careers_url: https://boards.greenhouse.io/pax8
+    scan_method: websearch
+    scan_query: 'site:boards.greenhouse.io/pax8 "IT" OR "Systems" OR "Help Desk" OR "Network" OR "Administrator" OR "Support"'
     notes: "Greenwood Village, CO cloud MSP. Strong IT operations hiring, Denver metro on-site roles."
     enabled: true
 
   - name: Optiv
-    careers_url: https://job-boards.greenhouse.io/optiv
-    scan_method: greenhouse_api
-    greenhouse_slug: optiv
+    careers_url: https://www.optiv.com/explore-optiv-insights/careers
+    scan_method: websearch
+    scan_query: '"optiv" careers "IT Support" OR "Systems Administrator" OR "Help Desk" OR "Security Analyst" Colorado OR remote'
     notes: "Denver, CO cybersecurity company. IT and security support roles."
     enabled: true
 
   - name: DaVita
-    careers_url: https://job-boards.greenhouse.io/davita
-    scan_method: greenhouse_api
-    greenhouse_slug: davita
+    careers_url: https://careers.davita.com
+    scan_method: websearch
+    scan_query: '"davita" careers "Systems Administrator" OR "IT Support" OR "Help Desk" OR "Desktop Support" OR "IT Analyst" remote OR Colorado'
     notes: "Denver, CO healthcare. Large IT department, sysadmin and support roles."
     enabled: true
 
-  - name: TTEC
-    careers_url: https://job-boards.greenhouse.io/ttec
-    scan_method: greenhouse_api
-    greenhouse_slug: ttec
-    notes: "Englewood, CO. Customer experience + IT support hiring. Remote and on-site Colorado roles."
+  - name: TTEC Digital
+    careers_url: https://jobs.lever.co/ttecdigital
+    scan_method: lever
+    notes: "Englewood, CO. TTEC Digital division on Lever. IT and tech support roles."
     enabled: true
 
   - name: Arrow Electronics
-    careers_url: https://job-boards.greenhouse.io/arrowelectronics
+    careers_url: https://www.arrow.com/en-us/careers
     scan_method: websearch
     scan_query: 'site:arrow.com/en-us/careers OR site:jobs.arrow.com "IT Support" OR "Systems Administrator" OR "Help Desk" OR "IT Analyst" Colorado OR remote'
     notes: "Centennial, CO. Large technology distributor. IT ops and support roles."
     enabled: true
 
   - name: Dish Network / EchoStar
-    careers_url: https://job-boards.greenhouse.io/dishnetwork
+    careers_url: https://careers.dish.com
     scan_method: websearch
     scan_query: '"dish network" OR "echostar" careers "Systems Administrator" OR "IT Support" OR "Help Desk" OR "Network Administrator" Colorado OR remote'
     notes: "Englewood, CO. Large employer. Corporate IT and infrastructure roles."
@@ -714,14 +708,14 @@ tracked_companies:
     enabled: true
 
   - name: Centura Health (now CommonSpirit)
-    careers_url: https://job-boards.greenhouse.io/centura
+    careers_url: https://commonspirit.org/careers
     scan_method: websearch
-    scan_query: '"centura health" careers "Systems Administrator" OR "IT Support" OR "Help Desk" Colorado OR remote'
+    scan_query: '"centura health" OR "commonspirit" careers "Systems Administrator" OR "IT Support" OR "Help Desk" Colorado OR remote'
     notes: "Centennial, CO. Candidate has prior experience here. Now part of CommonSpirit."
     enabled: true
 
   - name: Ball Corporation
-    careers_url: https://job-boards.greenhouse.io/ball
+    careers_url: https://jobs.ball.com
     scan_method: websearch
     scan_query: '"ball corporation" careers "Systems Administrator" OR "IT Support" OR "Help Desk" OR "IT Analyst" Colorado OR remote'
     notes: "Westminster/Broomfield, CO. Aerospace/packaging. Large IT organization."
@@ -746,31 +740,31 @@ tracked_companies:
   # =====================================================================
 
   - name: Logically (MSP)
-    careers_url: https://job-boards.greenhouse.io/logically
+    careers_url: https://www.logically.com/careers
     scan_method: websearch
-    scan_query: '"logically" OR "logicalis" careers "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Service Desk" remote'
+    scan_query: '"logically" careers "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Service Desk" remote'
     notes: "MSP. Remote sysadmin and help desk hiring."
     enabled: true
 
   - name: Ntiva (MSP)
-    careers_url: https://job-boards.greenhouse.io/ntiva
+    careers_url: https://www.ntiva.com/careers
     scan_method: websearch
     scan_query: '"ntiva" careers "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Service Desk" remote'
     notes: "MSP. Remote sysadmin and help desk hiring."
     enabled: true
 
   - name: Presidio
-    careers_url: https://job-boards.greenhouse.io/presidio
-    scan_method: greenhouse_api
-    greenhouse_slug: presidio
-    notes: "MSP/IT solutions. Remote sysadmin and infrastructure roles."
+    careers_url: https://www.presidio.com/careers
+    scan_method: websearch
+    scan_query: '"presidio" careers "Help Desk" OR "Service Desk" OR "Systems Administrator" OR "IT Support" remote'
+    notes: "Large US MSP and IT services. Frequent remote IT support and sysadmin openings."
     enabled: true
 
   - name: CDW
-    careers_url: https://job-boards.greenhouse.io/cdw
+    careers_url: https://www.cdw.com/content/cdw/en/careers.html
     scan_method: websearch
-    scan_query: '"cdw" careers "Systems Administrator" OR "IT Support" OR "Help Desk" OR "Infrastructure Engineer" remote'
-    notes: "Large IT solutions provider. Remote and on-site IT ops roles."
+    scan_query: '"cdw" careers "Systems Engineer" OR "Help Desk" OR "IT Support" OR "Desktop Support" remote'
+    notes: "IT products and services. IT support and solutions roles."
     enabled: true
 
   - name: Kyndryl
@@ -813,41 +807,6 @@ tracked_companies:
     scan_method: websearch
     scan_query: '"hcltech" OR "hcl tech" careers "Systems Administrator" OR "Help Desk" OR "Infrastructure Engineer" remote'
     notes: "Global IT services. Active hiring for infrastructure and support roles."
-    enabled: true
-
-  - name: Presidio
-    careers_url: https://www.presidio.com/careers
-    scan_method: websearch
-    scan_query: '"presidio" careers "Help Desk" OR "Service Desk" OR "Systems Administrator" OR "IT Support" remote'
-    notes: "Large US MSP and IT services. Frequent remote IT support and sysadmin openings."
-    enabled: true
-
-  - name: Logicalis
-    careers_url: https://us.logicalis.com/careers
-    scan_method: websearch
-    scan_query: '"logicalis" careers "Systems Administrator" OR "Help Desk" OR "Network Engineer" OR "IT Support" remote'
-    notes: "Global MSP. Remote-friendly IT support and infrastructure roles."
-    enabled: true
-
-  - name: World Wide Technology (WWT)
-    careers_url: https://www.wwt.com/careers
-    scan_method: websearch
-    scan_query: '"world wide technology" OR "wwt" careers "Systems Administrator" OR "Help Desk" OR "IT Support" remote'
-    notes: "Large IT solutions provider. Sysadmin, infra, and support roles."
-    enabled: true
-
-  - name: CDW
-    careers_url: https://www.cdw.com/content/cdw/en/careers.html
-    scan_method: websearch
-    scan_query: '"cdw" careers "Systems Engineer" OR "Help Desk" OR "IT Support" OR "Desktop Support" remote'
-    notes: "IT products and services. IT support and solutions roles."
-    enabled: true
-
-  - name: Ntiva
-    careers_url: https://www.ntiva.com/careers
-    scan_method: websearch
-    scan_query: '"ntiva" careers "Help Desk" OR "IT Support" OR "Systems Administrator" OR "Service Desk" remote'
-    notes: "Remote-friendly MSP. Frequent help desk and sysadmin openings."
     enabled: true
 
   - name: Avanade
