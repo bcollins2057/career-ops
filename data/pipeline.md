@@ -7,7 +7,20 @@ Processed entries move to `## Processed` below.
 
 ## Pending
 
-
+- [ ] https://jobs.ashbyhq.com/vanta/bdebe333-85f3-45c6-99fc-cc356e2ebfbb | Vanta | Technical Support Specialist- West Coast
+- [ ] https://jobs.ashbyhq.com/vanta/a9f1202d-2d7f-4b49-930b-6acc98dd4b59 | Vanta | Senior Systems Engineer, Corporate Engineering
+- [ ] https://jobs.ashbyhq.com/drata/51aa1c0e-c624-424e-b319-5e881ed1ca9a | Drata | Senior IT Engineer
+- [ ] https://jobs.lever.co/ttecdigital/83ec91ad-e81d-4203-88b8-bd505dcd9043 | TTEC Digital | Principal Consultant, Cloud Engineer
+- [ ] https://jobs.ashbyhq.com/notion/ece7d4c3-5a47-44d3-9ba3-85b091289605 | Notion | Enterprise Technical Premium Support Specialist
+- [ ] https://jobs.ashbyhq.com/notion/15f37b73-d217-469a-adfc-2e50cc9e2374 | Notion | Enterprise Technical Support
+- [ ] https://jobs.lever.co/veeva/242155ac-c878-46b0-9b68-880a732cc6f8 | Veeva Systems | Clinical Research Support Specialist
+- [ ] https://jobs.lever.co/veeva/043cae24-7417-49a5-bc76-54f313690669 | Veeva Systems | Senior IT Systems Engineer
+- [ ] https://jobs.lever.co/veeva/6b37622d-75fd-416f-ab61-3b8108e93023 | Veeva Systems | Senior IT Systems Engineer
+- [ ] https://jobs.lever.co/veeva/8d7d21e4-f9a8-49f6-9515-5e555133e8c2 | Veeva Systems | Senior IT Systems Engineer
+- [ ] https://job-boards.greenhouse.io/denverbroncosteamllc/jobs/5191808008 | Denver Broncos | Senior Systems Administrator ⚠️ DEADLINE JUNE 16
+- [ ] https://job-boards.greenhouse.io/denverbroncosteamllc/jobs/5255474008 | Denver Broncos | Senior Network Administrator
+- [ ] https://www.echostar.com/gfj/systems-administrator-ii-email-infrastructure-denver-co-6a27ed99f99a10039d92c4c5 | EchoStar | Systems Administrator II - Email Infrastructure
+- [ ] https://job-boards.greenhouse.io/submittable/jobs/6025447004 | Submittable | Technical Support Specialist
 
 ## Processed
 
@@ -157,4 +170,5 @@ Processed entries move to `## Processed` below.
 - [!] https://www.mongodb.com/careers/job/?gh_jid=7727923 | MongoDB | Staff Site Reliability Engineer, Fabric — SKIP: platform SWE role, 503 on fetch
 - [!] https://www.mongodb.com/careers/job/?gh_jid=7831454 | MongoDB | Staff Technical Program Manager, Site Reliability Engineering — SKIP: TPM role
 - [!] https://job-boards.greenhouse.io/verkada/jobs/5063200007 | Verkada | Technical Support Engineer — SKIP: San Mateo CA on-site 5d/week
+
 
