@@ -7,24 +7,27 @@ Processed entries move to `## Processed` below.
 
 ## Pending
 
-- [ ] https://jobs.ashbyhq.com/vanta/bdebe333-85f3-45c6-99fc-cc356e2ebfbb | Vanta | Technical Support Specialist- West Coast
-- [ ] https://jobs.ashbyhq.com/vanta/a9f1202d-2d7f-4b49-930b-6acc98dd4b59 | Vanta | Senior Systems Engineer, Corporate Engineering
-- [ ] https://jobs.ashbyhq.com/drata/51aa1c0e-c624-424e-b319-5e881ed1ca9a | Drata | Senior IT Engineer
-- [ ] https://jobs.lever.co/ttecdigital/83ec91ad-e81d-4203-88b8-bd505dcd9043 | TTEC Digital | Principal Consultant, Cloud Engineer
-- [ ] https://jobs.ashbyhq.com/notion/ece7d4c3-5a47-44d3-9ba3-85b091289605 | Notion | Enterprise Technical Premium Support Specialist
-- [ ] https://jobs.ashbyhq.com/notion/15f37b73-d217-469a-adfc-2e50cc9e2374 | Notion | Enterprise Technical Support
-- [ ] https://jobs.lever.co/veeva/242155ac-c878-46b0-9b68-880a732cc6f8 | Veeva Systems | Clinical Research Support Specialist
-- [ ] https://jobs.lever.co/veeva/043cae24-7417-49a5-bc76-54f313690669 | Veeva Systems | Senior IT Systems Engineer
-- [ ] https://jobs.lever.co/veeva/6b37622d-75fd-416f-ab61-3b8108e93023 | Veeva Systems | Senior IT Systems Engineer
-- [ ] https://jobs.lever.co/veeva/8d7d21e4-f9a8-49f6-9515-5e555133e8c2 | Veeva Systems | Senior IT Systems Engineer
-- [ ] https://job-boards.greenhouse.io/denverbroncosteamllc/jobs/5191808008 | Denver Broncos | Senior Systems Administrator ⚠️ DEADLINE JUNE 16
-- [ ] https://job-boards.greenhouse.io/denverbroncosteamllc/jobs/5255474008 | Denver Broncos | Senior Network Administrator
-- [ ] https://www.echostar.com/gfj/systems-administrator-ii-email-infrastructure-denver-co-6a27ed99f99a10039d92c4c5 | EchoStar | Systems Administrator II - Email Infrastructure
-- [ ] https://job-boards.greenhouse.io/submittable/jobs/6025447004 | Submittable | Technical Support Specialist
+<!-- No pending items -->
 
 ## Processed
 
 <!-- Evaluated entries move here automatically -->
+
+### Processed — Scan 2026-06-16
+- [x] #023 | https://jobs.ashbyhq.com/vanta/bdebe333-85f3-45c6-99fc-cc356e2ebfbb | Vanta | Technical Support Specialist - West Coast | 3.5/5 | PDF ❌
+- [x] #024 | https://jobs.ashbyhq.com/vanta/a9f1202d-2d7f-4b49-930b-6acc98dd4b59 | Vanta | Senior Systems Engineer, Corporate Engineering | 2.8/5 | PDF ❌
+- [x] #025 | https://jobs.ashbyhq.com/drata/51aa1c0e-c624-424e-b319-5e881ed1ca9a | Drata | Senior IT Engineer | 3.6/5 | PDF ❌
+- [x] #026 | https://jobs.lever.co/ttecdigital/83ec91ad-e81d-4203-88b8-bd505dcd9043 | TTEC Digital | Principal Consultant, Cloud Engineer | 1.5/5 | PDF ❌ SKIP
+- [x] #027 | https://jobs.ashbyhq.com/notion/ece7d4c3-5a47-44d3-9ba3-85b091289605 | Notion | Enterprise Technical Premium Support Specialist | 1.5/5 | PDF ❌ SKIP
+- [x] #028 | https://jobs.ashbyhq.com/notion/15f37b73-d217-469a-adfc-2e50cc9e2374 | Notion | Enterprise Technical Support | 1.5/5 | PDF ❌ SKIP
+- [x] #029 | https://jobs.lever.co/veeva/242155ac-c878-46b0-9b68-880a732cc6f8 | Veeva Systems | Clinical Research Support Specialist | 1.0/5 | PDF ❌ SKIP
+- [x] #030 | https://jobs.lever.co/veeva/043cae24-7417-49a5-bc76-54f313690669 | Veeva Systems | Senior IT Systems Engineer (US Remote) | 3.2/5 | PDF ❌
+- [x] #031 | https://jobs.lever.co/veeva/6b37622d-75fd-416f-ab61-3b8108e93023 | Veeva Systems | Senior IT Systems Engineer (NC-Raleigh anchor) | 2.8/5 | PDF ❌ duplicate of #030
+- [x] #032 | https://jobs.lever.co/veeva/8d7d21e4-f9a8-49f6-9515-5e555133e8c2 | Veeva Systems | Senior IT Systems Engineer (OH-Columbus anchor) | 2.8/5 | PDF ❌ duplicate of #030
+- [x] #033 | https://job-boards.greenhouse.io/denverbroncosteamllc/jobs/5191808008 | Denver Broncos | Senior Systems Administrator | 3.8/5 | PDF ❌ EXPIRED (closed on deadline day)
+- [x] #034 | https://job-boards.greenhouse.io/denverbroncosteamllc/jobs/5255474008 | Denver Broncos | Senior Network Administrator | 2.2/5 | PDF ❌ SKIP
+- [x] #035 | https://www.echostar.com/gfj/systems-administrator-ii-email-infrastructure-denver-co-6a27ed99f99a10039d92c4c5 | EchoStar | Systems Administrator II - Email Infrastructure | 3.4/5 | PDF ❌
+- [x] #036 | https://job-boards.greenhouse.io/submittable/jobs/6025447004 | Submittable | Technical Support Specialist | 2.8/5 | PDF ❌
 
 ### Processed — Scan 2026-06-12
 - [x] #001 | https://job-boards.greenhouse.io/automox/jobs/5255271008 | Automox | IT Systems Administrator | 4.0/5 | PDF ❌
