@@ -785,7 +785,7 @@ tracked_companies:
     careers_url: https://careers.cognizant.com
     scan_method: websearch
     scan_query: 'site:careers.cognizant.com "Systems Administrator" OR "IT Support" OR "Help Desk" OR "Infrastructure Engineer" remote'
-    notes: "Global IT services. Frequent hiring for sysadmin and support roles."
+    notes: "Global IT services (India HQ). Frequent hiring for sysadmin and support roles. Deprioritize vs. direct-employer postings — verify pay rate/contract type."
     enabled: true
 
   - name: Unisys
@@ -806,7 +806,7 @@ tracked_companies:
     careers_url: https://www.hcltech.com/careers
     scan_method: websearch
     scan_query: '"hcltech" OR "hcl tech" careers "Systems Administrator" OR "Help Desk" OR "Infrastructure Engineer" remote'
-    notes: "Global IT services. Active hiring for infrastructure and support roles."
+    notes: "Global IT services (India HQ). Active hiring for infrastructure and support roles. Deprioritize vs. direct-employer postings — verify pay rate/contract type."
     enabled: true
 
   - name: Avanade
@@ -960,6 +960,15 @@ tracked_companies:
 
   # =====================================================================
   # STAFFING / IT RECRUITERS — websearch (high volume of IT postings)
+  #
+  # NOTE: Staffing-firm postings (especially India-based IT services firms
+  # like Cognizant, HCLTech, Wipro, Infosys, TCS) tend to be high-volume,
+  # low-vetting reposts of the same role across many boards, often C2C/contract
+  # with a markup taken by the firm, and sometimes visa/bench-driven. When the
+  # scanner surfaces these, rank them BELOW direct-employer postings of equal
+  # title match and flag them as "staffing firm — verify pay rate and contract
+  # type before applying." Don't auto-skip them (some are legitimate, decent
+  # pay), just don't let them crowd out direct-employer hits in the digest.
   # =====================================================================
 
   - name: Robert Half Technology
