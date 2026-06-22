@@ -7,7 +7,11 @@ Processed entries move to `## Processed` below.
 
 ## Pending
 
-<!-- No pending items -->
+- [ ] https://boards.greenhouse.io/dropbox/jobs/7768859 | Dropbox | Customer Systems Administrator (Remote - US)
+- [ ] https://jobs.ashbyhq.com/forma/399a29b9-e08e-4a56-8cc9-1d59a17c4c14 | Forma | IT System Administrator (Remote US)
+- [ ] https://job-boards.greenhouse.io/cogstateinc/jobs/5232357008 | Cogstate | Systems and Network Administrator (virtual-first US/AU/UK)
+- [ ] https://job-boards.greenhouse.io/onepath/jobs/4600601007 | RedHelm (OnePath) | Systems Administrator I (Remote)
+- [ ] https://jobs.lever.co/crosscountry-consulting/c5ae4605-42c2-4677-acef-b000cb24942a/apply | CrossCountry Consulting | Systems Administrator (Remote US)
 
 ## Processed
 
