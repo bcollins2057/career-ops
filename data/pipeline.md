@@ -12,6 +12,11 @@ Processed entries move to `## Processed` below.
 - [ ] https://job-boards.greenhouse.io/cogstateinc/jobs/5232357008 | Cogstate | Systems and Network Administrator (virtual-first US/AU/UK)
 - [ ] https://job-boards.greenhouse.io/onepath/jobs/4600601007 | RedHelm (OnePath) | Systems Administrator I (Remote)
 - [ ] https://jobs.lever.co/crosscountry-consulting/c5ae4605-42c2-4677-acef-b000cb24942a/apply | CrossCountry Consulting | Systems Administrator (Remote US)
+- [ ] https://boards.greenhouse.io/fleetio/jobs/4342796007 | Fleetio | IT Systems Administrator (Remote US)
+- [ ] https://job-boards.greenhouse.io/transcendinc/jobs/4156100009 | Transcend Inc | IT Systems & Compliance Administrator (Remote US)
+- [ ] https://job-boards.greenhouse.io/fronterahealth/jobs/5081999007 | Frontera Health | IT Support Specialist (Denver, CO)
+- [ ] https://jobs.ashbyhq.com/rula/c0cb671e-38c5-4601-9973-c3597fa07b3e | Rula | IT Service Desk Manager (Remote)
+- [ ] https://jobs.lever.co/pingwind/c4d23990-8cf4-40b0-a8dd-14354d1b3439 | PingWind | Help Desk Lead/Manager (Remote US — requires Public Trust clearance Tier 4/6c)
 
 ## Processed
 
