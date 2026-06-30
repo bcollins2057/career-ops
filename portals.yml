@@ -816,6 +816,125 @@ tracked_companies:
     notes: "Microsoft-focused IT services (Accenture + Microsoft JV). M365, Azure, Intune roles."
     enabled: true
 
+  - name: World Wide Technology (WWT)
+    careers_url: https://www.wwt.com/careers
+    scan_method: websearch
+    scan_query: '"world wide technology" careers "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Infrastructure Engineer" remote'
+    notes: "Large US-based MSP/systems integrator. Strong M365/Azure infra hiring."
+    enabled: true
+
+  - name: Sirius Computer Solutions (CDW company)
+    careers_url: https://www.siriuscom.com/careers
+    scan_method: websearch
+    scan_query: '"sirius computer solutions" careers "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Infrastructure" remote'
+    notes: "US MSP/IT solutions provider (now part of CDW). Sysadmin and infra roles."
+    enabled: true
+
+  - name: GDT (General Datatech)
+    careers_url: https://www.gdt.com/careers
+    scan_method: websearch
+    scan_query: '"gdt" OR "general datatech" careers "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Network Engineer" remote'
+    notes: "US-based MSP and IT infrastructure provider."
+    enabled: true
+
+  - name: Logicalis
+    careers_url: https://us.logicalis.com/careers
+    scan_method: websearch
+    scan_query: '"logicalis" careers "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Infrastructure Engineer" remote'
+    notes: "Global IT solutions/MSP with strong US presence."
+    enabled: true
+
+  - name: ConvergeOne
+    careers_url: https://www.convergeone.com/careers
+    scan_method: websearch
+    scan_query: '"convergeone" careers "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Network Engineer" remote'
+    notes: "US MSP focused on collaboration, cloud, and managed services."
+    enabled: true
+
+  - name: NWN Carousel
+    careers_url: https://www.nwncarousel.com/careers
+    scan_method: websearch
+    scan_query: '"nwn carousel" careers "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Service Desk" remote'
+    notes: "US managed cloud communications and IT services provider."
+    enabled: true
+
+  - name: GreenPages Technology Solutions
+    careers_url: https://www.greenpages.com/careers
+    scan_method: websearch
+    scan_query: '"greenpages" careers "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Cloud Engineer" remote'
+    notes: "US-based hybrid cloud MSP."
+    enabled: true
+
+  - name: Sayers
+    careers_url: https://www.sayers.com/careers
+    scan_method: websearch
+    scan_query: '"sayers" careers "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Network Engineer" remote'
+    notes: "US IT solutions provider/MSP, Chicago-based with national reach."
+    enabled: true
+
+  - name: NexusTek
+    careers_url: https://nexustek.com/careers
+    scan_method: websearch
+    scan_query: '"nexustek" careers "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Service Desk" remote'
+    notes: "Denver, CO-headquartered MSP. Strong local + remote sysadmin/support hiring."
+    enabled: true
+
+  - name: Buchanan Technologies
+    careers_url: https://www.buchanan.com/careers
+    scan_method: websearch
+    scan_query: '"buchanan technologies" careers "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Service Desk" remote'
+    notes: "US/Canada MSP, remote-friendly service desk and infrastructure roles."
+    enabled: true
+
+  - name: Six Degrees / Ntirety
+    careers_url: https://www.ntirety.com/careers
+    scan_method: websearch
+    scan_query: '"ntirety" careers "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Database Administrator" remote'
+    notes: "US managed cloud and database services provider."
+    enabled: true
+
+  - name: All Covered (Ricoh USA)
+    careers_url: https://www.allcovered.com/careers
+    scan_method: websearch
+    scan_query: '"all covered" "ricoh" careers "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Service Desk" remote'
+    notes: "Ricoh's MSP division. Help desk and sysadmin roles across the US."
+    enabled: true
+
+  - name: CompuCom
+    careers_url: https://www.compucom.com/careers
+    scan_method: websearch
+    scan_query: '"compucom" careers "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Desktop Support" remote'
+    notes: "US managed workplace services provider, large help desk/deskside footprint."
+    enabled: true
+
+  - name: SHI International
+    careers_url: https://www.shi.com/careers
+    scan_method: websearch
+    scan_query: '"shi international" careers "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Infrastructure" remote'
+    notes: "US IT solutions provider/reseller with managed services arm."
+    enabled: true
+
+  - name: Insight Enterprises
+    careers_url: https://jobs.insight.com
+    scan_method: websearch
+    scan_query: 'site:jobs.insight.com "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Infrastructure Engineer" remote'
+    notes: "US IT solutions integrator/MSP. Frequent remote sysadmin and support roles."
+    enabled: true
+
+  - name: ePlus
+    careers_url: https://careers.eplus.com
+    scan_method: websearch
+    scan_query: '"eplus" careers "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Network Engineer" remote'
+    notes: "US-based IT solutions provider/MSP."
+    enabled: true
+
+  - name: Mindsight
+    careers_url: https://gomindsight.com/careers
+    scan_method: websearch
+    scan_query: '"mindsight" careers "Systems Administrator" OR "Help Desk" OR "IT Support" OR "Network Engineer" remote'
+    notes: "Chicago-based boutique MSP, IT support and infrastructure roles."
+    enabled: true
+
   # =====================================================================
   # DEFENSE & GOVERNMENT IT — websearch
   # =====================================================================
