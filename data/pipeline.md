@@ -17,6 +17,18 @@ Processed entries move to `## Processed` below.
 - [ ] https://job-boards.greenhouse.io/fronterahealth/jobs/5081999007 | Frontera Health | IT Support Specialist (Denver, CO)
 - [ ] https://jobs.ashbyhq.com/rula/c0cb671e-38c5-4601-9973-c3597fa07b3e | Rula | IT Service Desk Manager (Remote)
 - [ ] https://jobs.lever.co/pingwind/c4d23990-8cf4-40b0-a8dd-14354d1b3439 | PingWind | Help Desk Lead/Manager (Remote US — requires Public Trust clearance Tier 4/6c)
+- [ ] https://job-boards.greenhouse.io/arizeai/jobs/5997089004 | Arize AI | IT Support Specialist (Remote US, $90K–$125K + equity)
+- [ ] https://job-boards.greenhouse.io/underdogfantasy/jobs/4675205005 | Underdog | IT Support Engineer (Remote US, $90K–$120K + equity)
+- [ ] https://job-boards.greenhouse.io/topsteptrader/jobs/7505718003 | Topstep | IT Support Administrator (Remote US, fully remote)
+- [ ] https://job-boards.greenhouse.io/kunai/jobs/5051311007 | Kunai (PwC Network) | IT Support Administrator (Remote US)
+- [ ] https://jobs.lever.co/Arbol/015ae171-6d09-4c10-ac5c-3ceb49068507 | Arbol | IT Support Specialist (Remote US)
+- [ ] https://job-boards.greenhouse.io/volterapower/jobs/4978816007 | Voltera Power | IT Architect & System Administrator (Hybrid — Denver CO, $158K–$180K)
+- [ ] https://job-boards.greenhouse.io/ampsortation/jobs/7721759003 | AMP | Corporate IT Manager (Louisville CO / Denver metro, $115K–$144K, 60% on-site)
+- [ ] https://job-boards.greenhouse.io/link/jobs/5175744008 | LINK | IT & Compliance Manager (Remote US, $105K–$130K)
+- [ ] https://job-boards.greenhouse.io/oportun/jobs/4674665005 | Oportun | IT Support Specialist (Remote US, $31–$47/hr)
+- [ ] https://jobs.ashbyhq.com/Flock%20Safety/d9d492f1-12e4-4774-ad04-87d80637cfbb | Flock Safety | IT Systems Administrator — Finance (verify: US remote)
+- [ ] https://jobs.lever.co/kyruushealth/3e2cd29b-e828-4e36-b873-7795a34417fe | Kyruus Health | Staff IT Systems Administrator (verify: US remote)
+- [ ] https://jobs.ashbyhq.com/mainstay/5a26e221-e838-40e5-b453-55c5e1fc1a70 | Mainstay Labs | IT Support Lead (verify: US remote)
 
 ## Processed
 
