@@ -7,6 +7,9 @@ Processed entries move to `## Processed` below.
 
 ## Pending
 
+- [ ] https://jobs.lever.co/corebts/04c6b3cb-4464-4059-9a01-a0f166ad2ce1 | NRI North America (CoreBTS) | Systems Administrator - Corporate IT (Remote US)
+- [ ] https://job-boards.greenhouse.io/coretelligent/jobs/5290494008 | Coretelligent | Service Delivery Manager (Remote US)
+- [ ] https://job-boards.greenhouse.io/recursionpharmaceuticals/jobs/6346049 | Recursion Pharmaceuticals | Senior Systems Administrator — 6-month contract (Remote US / On-site SLC)
 - [ ] https://boards.greenhouse.io/dropbox/jobs/7768859 | Dropbox | Customer Systems Administrator (Remote - US)
 - [ ] https://jobs.ashbyhq.com/forma/399a29b9-e08e-4a56-8cc9-1d59a17c4c14 | Forma | IT System Administrator (Remote US)
 - [ ] https://job-boards.greenhouse.io/cogstateinc/jobs/5232357008 | Cogstate | Systems and Network Administrator (virtual-first US/AU/UK)
