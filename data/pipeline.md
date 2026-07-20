@@ -7,6 +7,15 @@ Processed entries move to `## Processed` below.
 
 ## Pending
 
+- [ ] https://job-boards.greenhouse.io/olipop/jobs/7758409003 | OLIPOP | IT Systems Administrator (Remote US, $110K–$120K)
+- [ ] https://job-boards.greenhouse.io/goguardian/jobs/4676710006 | GoGuardian | Help Desk Specialist III (Remote US)
+- [ ] https://job-boards.greenhouse.io/goguardian/jobs/4690160006 | GoGuardian | Help Desk Specialist I (Remote US, $28–$34/hr)
+- [ ] https://jobs.lever.co/lucidworks/2c245e4c-db34-4332-ae3d-92e8bbd1a9d9 | Lucidworks | Senior IT Systems Engineer (Remote US)
+- [ ] https://jobs.ashbyhq.com/Second-Front-Systems/9d2f18f4-ab8b-4a24-a3c0-05489358490a | Second Front Systems | IT Engineer (Remote-first, defense tech)
+- [ ] https://jobs.ashbyhq.com/headway/c78bfad1-4377-42ce-a71b-7078be87b837 | Headway | Senior IT Engineer (IAM) (Remote US)
+- [ ] https://remotive.com/remote/jobs/all-others/service-desk-supervisor-5071496 | State of Colorado | Service Desk Supervisor (Remote CO, $85K–$95K)
+- [ ] https://job-boards.greenhouse.io/9thwayinsignia/jobs/5283624008 | 9th Way Insignia | Systems Administrator (verify: US remote)
+- [ ] https://job-boards.greenhouse.io/tailscale/jobs/4686399005 | Tailscale | Infrastructure Engineer (verify: US remote)
 - [ ] https://jobs.lever.co/corebts/04c6b3cb-4464-4059-9a01-a0f166ad2ce1 | NRI North America (CoreBTS) | Systems Administrator - Corporate IT (Remote US)
 - [ ] https://job-boards.greenhouse.io/coretelligent/jobs/5290494008 | Coretelligent | Service Delivery Manager (Remote US)
 - [ ] https://job-boards.greenhouse.io/recursionpharmaceuticals/jobs/6346049 | Recursion Pharmaceuticals | Senior Systems Administrator — 6-month contract (Remote US / On-site SLC)
