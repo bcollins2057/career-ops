@@ -7,6 +7,8 @@ Processed entries move to `## Processed` below.
 
 ## Pending
 
+- [ ] https://job-boards.greenhouse.io/unframe/jobs/4840939101 | Unframe | System Administrator (verify: US remote)
+- [ ] https://jobs.ashbyhq.com/strategic-growth-partners/630ea2d6-eaef-452e-b5b0-a93d97de7839 | Strategic Growth Partners | IT Technician (Remote US, $65K–$70K)
 - [ ] https://job-boards.greenhouse.io/olipop/jobs/7758409003 | OLIPOP | IT Systems Administrator (Remote US, $110K–$120K)
 - [ ] https://job-boards.greenhouse.io/goguardian/jobs/4676710006 | GoGuardian | Help Desk Specialist III (Remote US)
 - [ ] https://job-boards.greenhouse.io/goguardian/jobs/4690160006 | GoGuardian | Help Desk Specialist I (Remote US, $28–$34/hr)
