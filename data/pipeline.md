@@ -43,6 +43,9 @@ Processed entries move to `## Processed` below.
 - [ ] https://jobs.ashbyhq.com/Flock%20Safety/d9d492f1-12e4-4774-ad04-87d80637cfbb | Flock Safety | IT Systems Administrator — Finance (verify: US remote)
 - [ ] https://jobs.lever.co/kyruushealth/3e2cd29b-e828-4e36-b873-7795a34417fe | Kyruus Health | Staff IT Systems Administrator (verify: US remote)
 - [ ] https://jobs.ashbyhq.com/mainstay/5a26e221-e838-40e5-b453-55c5e1fc1a70 | Mainstay Labs | IT Support Lead (verify: US remote)
+- [ ] https://job-boards.greenhouse.io/themotleyfool/jobs/4537543007 | The Motley Fool | IT Support Technician (Remote US)
+- [ ] https://jobs.ashbyhq.com/openly/51c52ff4-0112-4863-96ea-00027b5aabc6 | Openly | IT Support Specialist II (Remote US)
+- [ ] https://job-boards.greenhouse.io/simplesense/jobs/4186845009 | SimpleSense | Platform Engineer, Windows Infrastructure (Denver CO hybrid or Remote US, verify: clearance?)
 
 ## Processed
 
