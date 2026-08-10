@@ -46,6 +46,10 @@ Processed entries move to `## Processed` below.
 - [ ] https://job-boards.greenhouse.io/themotleyfool/jobs/4537543007 | The Motley Fool | IT Support Technician (Remote US)
 - [ ] https://jobs.ashbyhq.com/openly/51c52ff4-0112-4863-96ea-00027b5aabc6 | Openly | IT Support Specialist II (Remote US)
 - [ ] https://job-boards.greenhouse.io/simplesense/jobs/4186845009 | SimpleSense | Platform Engineer, Windows Infrastructure (Denver CO hybrid or Remote US, verify: clearance?)
+- [ ] https://jobs.lever.co/articulate/53646ea1-52f6-4799-94ea-56dacc16b9cd | Articulate | IT Automations and Support Specialist (Fully Remote US, $72.5K–$96K)
+- [ ] https://jobs.lever.co/ghsmartjobs/11ef15ed-3780-4c5d-8636-84e5a3174ea8 | ghSMART | IT Support Administrator (Fully Remote US, $85K–$90K + bonus, verify: still open — posted March 2026)
+- [ ] https://jobs.ashbyhq.com/quindar/d8323584-b637-400f-8469-00da26e3f054 | Quindar | IT Support Administrator (Arvada CO / Denver metro on-site, $70K–$95K)
+- [ ] https://job-boards.greenhouse.io/localitymediallcdbafirstdue/jobs/4330054009 | First Due | IT Systems Engineer (Remote US, ~$100K)
 
 ## Processed
 
