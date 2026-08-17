@@ -7,6 +7,13 @@ Processed entries move to `## Processed` below.
 
 ## Pending
 
+- [ ] https://jobs.ashbyhq.com/livekit/faea252e-3137-4de9-965e-33a4ccef2088 | LiveKit | IT Support Engineer (Remote US distributed team)
+- [ ] https://jobs.lever.co/omnidian/687c041e-6f8a-4334-be17-19ec3ea8a23a | Omnidian | Senior Infrastructure Engineer, IT (Remote US)
+- [ ] https://jobs.lever.co/cologix/96b135f9-b635-4bc7-ba81-c8102f24e87f | Cologix | IT Systems DevOps Engineer (Denver CO — verify: remote option?)
+- [ ] https://job-boards.greenhouse.io/karbon/jobs/5822487004 | Karbon | Senior IT Systems Administrator (verify: remote US, salary)
+- [ ] https://job-boards.greenhouse.io/upkeep/jobs/4899248008 | UpKeep | Senior IT Systems Administrator (verify: remote vs LA office)
+- [ ] https://job-boards.greenhouse.io/postman/jobs/6080145003 | Postman | IT Systems Administrator (verify: remote US vs SF office)
+- [ ] https://job-boards.greenhouse.io/its/jobs/7779191003 | Intelligent Technical Solutions (ITS) | System Administrator II (verify: US pay rate)
 - [ ] https://job-boards.greenhouse.io/unframe/jobs/4840939101 | Unframe | System Administrator (verify: US remote)
 - [ ] https://jobs.ashbyhq.com/strategic-growth-partners/630ea2d6-eaef-452e-b5b0-a93d97de7839 | Strategic Growth Partners | IT Technician (Remote US, $65K–$70K)
 - [ ] https://job-boards.greenhouse.io/olipop/jobs/7758409003 | OLIPOP | IT Systems Administrator (Remote US, $110K–$120K)
