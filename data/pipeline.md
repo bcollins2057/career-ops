@@ -57,6 +57,10 @@ Processed entries move to `## Processed` below.
 - [ ] https://jobs.lever.co/ghsmartjobs/11ef15ed-3780-4c5d-8636-84e5a3174ea8 | ghSMART | IT Support Administrator (Fully Remote US, $85K–$90K + bonus, verify: still open — posted March 2026)
 - [ ] https://jobs.ashbyhq.com/quindar/d8323584-b637-400f-8469-00da26e3f054 | Quindar | IT Support Administrator (Arvada CO / Denver metro on-site, $70K–$95K)
 - [ ] https://job-boards.greenhouse.io/localitymediallcdbafirstdue/jobs/4330054009 | First Due | IT Systems Engineer (Remote US, ~$100K)
+- [ ] https://job-boards.greenhouse.io/automox/jobs/5233343008 | Automox | Technical Support Engineer (Remote US — Austin TX/Denver CO/Tampa FL, $70K+ min CO)
+- [ ] https://job-boards.greenhouse.io/automox/jobs/5252633008 | Automox | Associate Technical Support Engineer (Remote US — Austin TX/Denver CO/Tampa FL, verify: salary may be below $60K threshold)
+- [ ] https://jobs.lever.co/filevine/469a94f6-1a1c-4ca3-aa10-d18b43750825 | Filevine | Senior IT Support Analyst (verify: remote US confirmed, salary not listed)
+- [ ] https://jobs.lever.co/kpaonline/61de7c0f-6017-42fb-b486-e9939868ce4b | KPA | Help Desk Technician (Westminster CO / Denver metro, hybrid-remote, verify: salary)
 
 ## Processed
 
