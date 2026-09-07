@@ -61,6 +61,12 @@ Processed entries move to `## Processed` below.
 - [ ] https://job-boards.greenhouse.io/automox/jobs/5252633008 | Automox | Associate Technical Support Engineer (Remote US — Austin TX/Denver CO/Tampa FL, verify: salary may be below $60K threshold)
 - [ ] https://jobs.lever.co/filevine/469a94f6-1a1c-4ca3-aa10-d18b43750825 | Filevine | Senior IT Support Analyst (verify: remote US confirmed, salary not listed)
 - [ ] https://jobs.lever.co/kpaonline/61de7c0f-6017-42fb-b486-e9939868ce4b | KPA | Help Desk Technician (Westminster CO / Denver metro, hybrid-remote, verify: salary)
+- [ ] https://jobs.ashbyhq.com/1password/977a7202-3aef-4ccb-a493-6042c6327f2c | 1Password | Senior IT Support Engineer (Remote US, $109K–$153K)
+- [ ] https://job-boards.greenhouse.io/epickids/jobs/7976175003 | Epic Kids | IT Systems Administrator (Remote US, verify: salary)
+- [ ] https://jobs.ashbyhq.com/benepass/4c988742-00bd-4a0f-8663-1c79dd0e3822 | Benepass | Senior IT Systems Engineer (Remote US, verify: still open — posted Dec 2025)
+- [ ] https://jobs.lever.co/pingwind/8c0e0c16-d6a6-40b5-bd81-fc92591bd728 | PingWind | Help Desk Manager (Remote US — requires Public Trust clearance)
+- [ ] https://jobs.lever.co/weloglobal/952e6188-856a-490a-bf4d-d7e2b0ff484f | Welo Global | IT Support Engineer (verify: US remote, salary — global workforce company)
+- [ ] https://jobs.lever.co/jobandtalent/5d576e91-3952-4da1-928e-9967bdc543a8 | Job&Talent | Senior IT Support Engineer (verify: US remote, salary — Spanish company, US region role)
 
 ## Processed
 
