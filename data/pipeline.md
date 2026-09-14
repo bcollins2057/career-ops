@@ -7,6 +7,10 @@ Processed entries move to `## Processed` below.
 
 ## Pending
 
+- [ ] https://jobs.ashbyhq.com/whatnot/46ed3852-aea2-426d-a144-674b2f5950c3 | Whatnot | IT Systems & Ops Engineer (Remote US, office-optional — verify: title and salary)
+- [ ] https://jobs.ashbyhq.com/whatnot/77bd6064-45e5-4deb-9ce5-e081e3a18c74 | Whatnot | Senior IT Systems & Ops Engineer (Remote US, office-optional — verify: title and salary)
+- [ ] https://job-boards.greenhouse.io/coinbase/jobs/8179311 | Coinbase | Senior Network Engineer (Remote USA — verify: infra/networking role at crypto company)
+- [ ] https://job-boards.greenhouse.io/computergeneratedsolutions/jobs/5162181008 | Computer Generated Solutions | IT Help Desk Team Lead (Remote US — verify: salary, CGS is BPO)
 - [ ] https://jobs.ashbyhq.com/livekit/faea252e-3137-4de9-965e-33a4ccef2088 | LiveKit | IT Support Engineer (Remote US distributed team)
 - [ ] https://jobs.lever.co/omnidian/687c041e-6f8a-4334-be17-19ec3ea8a23a | Omnidian | Senior Infrastructure Engineer, IT (Remote US)
 - [ ] https://jobs.lever.co/cologix/96b135f9-b635-4bc7-ba81-c8102f24e87f | Cologix | IT Systems DevOps Engineer (Denver CO — verify: remote option?)
